@@ -25,6 +25,10 @@
   - 由脚本生成
   - 默认被 `.gitignore` 忽略
 
+- `LICENSE`
+  - 当前使用 MIT License
+  - 允许别人使用、修改、分发和再发布
+
 ## 常用命令
 
 ```bash

@@ -8,6 +8,18 @@
 
 通用工具继续以 **Atoll** 为主力，**BoringNotch** 做开源备用。AI Coding 工具优先试 **CodeIsland** 和 **Open Island**；重度 Claude Code 再看 **MioIsland / Claude Island / Notchi**。
 
+## Quick Start
+
+如果你只是查看工具对比，直接阅读这份 `README.md` 就可以。
+
+如果你想在本地维护自己的私有体验层：
+
+1. 复制 `data/local-notes.example.json` 为 `data/local-notes.json`
+2. 按自己的机器情况填写本地安装包、验证结果和主力工具
+3. 执行 `make update-private` 生成本地 `PRIVATE.md`
+
+`PRIVATE.md` 和 `data/local-notes.json` 默认不会进入公开仓库。
+
 ## 状态说明
 
 | 状态 | 含义 |
