@@ -23,6 +23,8 @@ jobs:
       - run: python scripts/render_docs.py --public
       - name: Commit and push changes
         run: |
+          # Only public generated files are committed by CI.
+          # PRIVATE.md and data/local-notes.json are ignored and stay local.
           if git diff --quiet -- README.md data/generated-metadata.json; then
             echo "No public changes to commit."
             exit 0

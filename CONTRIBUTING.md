@@ -46,6 +46,7 @@ make update-private
   - 每周自动更新公开版 `README.md`
   - 每周自动更新 `data/generated-metadata.json`
   - 有变化时自动 commit + push
+  - 只提交公开生成文件，不提交 `PRIVATE.md` 或 `data/local-notes.json`
 
 - 本地私有体验：
   - 继续由 `data/local-notes.json` 维护

@@ -7,6 +7,9 @@ from update_metadata import collect
 
 def main() -> None:
     parser = argparse.ArgumentParser()
+    # Archived entries intentionally include broken or suspicious links.
+    # They are useful historical records, so they should not fail the default
+    # public link check unless explicitly requested.
     parser.add_argument("--include-archived", action="store_true")
     args = parser.parse_args()
     metadata = collect()

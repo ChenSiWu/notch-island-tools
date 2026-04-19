@@ -11,6 +11,10 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 HEADERS = {"User-Agent": "notch-island-tools metadata updater"}
 
+# This script only collects public, objective metadata:
+# GitHub repo metadata and link status. Local/private experience notes live in
+# data/local-notes.json and are intentionally not read or modified here.
+
 
 def load_json(path: Path, default: Any) -> Any:
     if not path.exists():
@@ -76,6 +80,8 @@ def collect() -> dict[str, Any]:
 
 
 def main() -> None:
+    # The generated file is public and safe to commit. It should never include
+    # installed packages, machine-specific test results, or personal notes.
     output = ROOT / "data" / "generated-metadata.json"
     output.write_text(json.dumps(collect(), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 

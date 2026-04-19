@@ -8,6 +8,11 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
+
+# Rendering is intentionally split into two outputs:
+# - README.md is the public document and only uses data/tools.json.
+# - PRIVATE.md extends README.md with data/local-notes.json for local notes.
+# Keep local notes out of README.md so the public repo stays shareable.
 STATUS_ROWS = [
     ["推荐", "地址和下载入口清楚，仍在更新，功能与当前需求匹配，适合优先试"],
     ["可试", "地址可用，但功能偏单一、闭源信息有限、或需要按场景验证"],
@@ -253,8 +258,10 @@ def main() -> None:
         args.public = True
         args.private = True
     if args.public:
+        # Public output: safe to commit and publish.
         (args.root / "README.md").write_text(render_public(args.root), encoding="utf-8")
     if args.private:
+        # Private output: ignored by git; contains local-notes.json content.
         (args.root / "PRIVATE.md").write_text(render_private(args.root), encoding="utf-8")
 
 
