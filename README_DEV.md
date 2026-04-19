@@ -19,3 +19,8 @@ python3 scripts/check_links.py
 python3 -m unittest discover -s tests
 ```
 
+## 自动化策略
+
+- GitHub Actions：每周更新公开版 `README.md` 和 `data/generated-metadata.json`，并自动 commit + push。
+- 本机私有体验：继续由 `data/local-notes.json` 维护，不建议本机定时任务自动改写。
+- 如果你直接告诉 Codex 新的体验结论，优先由 Codex 更新 `data/local-notes.json`，再重新生成 `PRIVATE.md`。
