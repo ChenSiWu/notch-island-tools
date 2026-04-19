@@ -3,6 +3,7 @@ name: Update tool metadata
 on:
   workflow_dispatch:
   schedule:
+    # Weekly run. GitHub Actions cron uses UTC, so 02:00 UTC Monday is 10:00 Monday in Asia/Shanghai.
     - cron: "0 2 * * 1"
 
 permissions:
