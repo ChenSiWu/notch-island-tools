@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-19T11:41:32.939235+00:00",
+  "updated_at": "2026-04-19T11:43:06.708933+00:00",
   "tools": {
     "Atoll": {
       "group": "general",
@@ -13,18 +13,7 @@
           "final_url": "https://github.com/Ebullioscopic/Atoll/releases/tag/v2.1.0"
         }
       },
-      "github": {
-        "stars": 1762,
-        "pushed_at": "2026-04-16T05:47:20Z",
-        "updated_at": "2026-04-19T11:33:44Z",
-        "license": "GPL-3.0",
-        "archived": false,
-        "latest_release": {
-          "tag": "v2.1.0",
-          "published_at": "2026-03-21T18:40:14Z",
-          "url": "https://github.com/Ebullioscopic/Atoll/releases/tag/v2.1.0"
-        }
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "BoringNotch": {
       "group": "general",
@@ -42,18 +31,7 @@
           "final_url": "https://github.com/TheBoredTeam/boring.notch/releases/tag/v2.7.3"
         }
       },
-      "github": {
-        "stars": 8498,
-        "pushed_at": "2026-04-18T19:23:31Z",
-        "updated_at": "2026-04-19T11:35:26Z",
-        "license": "GPL-3.0",
-        "archived": false,
-        "latest_release": {
-          "tag": "v2.7.3",
-          "published_at": "2025-11-24T08:07:43Z",
-          "url": "https://github.com/TheBoredTeam/boring.notch/releases/tag/v2.7.3"
-        }
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "Alcove": {
       "group": "general",
@@ -77,7 +55,7 @@
         },
         "App Store": {
           "status": 200,
-          "final_url": "https://apps.apple.com/cn/iphone/today"
+          "final_url": "https://apps.apple.com/us/app/lookieloo-rock-your-notch/id6747730721?mt=12"
         }
       }
     },
@@ -104,7 +82,7 @@
       "links": {
         "App Store": {
           "status": 200,
-          "final_url": "https://apps.apple.com/cn/iphone/today"
+          "final_url": "https://apps.apple.com/us/app/nook-x-%E6%95%88%E7%8E%87%E5%B2%9B-notch-%E7%95%AA%E8%8C%84%E9%92%9F-%E5%88%98%E6%B5%B7-todo/id6733240772?mt=12"
         }
       }
     },
@@ -176,18 +154,7 @@
           "final_url": "https://github.com/wxtsky/CodeIsland/releases/tag/v1.0.21"
         }
       },
-      "github": {
-        "stars": 1063,
-        "pushed_at": "2026-04-16T17:25:11Z",
-        "updated_at": "2026-04-19T09:17:48Z",
-        "license": "MIT",
-        "archived": false,
-        "latest_release": {
-          "tag": "v1.0.21",
-          "published_at": "2026-04-16T17:23:13Z",
-          "url": "https://github.com/wxtsky/CodeIsland/releases/tag/v1.0.21"
-        }
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "Open Island": {
       "group": "ai_coding",
@@ -201,18 +168,7 @@
           "final_url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.0.25"
         }
       },
-      "github": {
-        "stars": 591,
-        "pushed_at": "2026-04-18T12:40:54Z",
-        "updated_at": "2026-04-19T11:11:55Z",
-        "license": "GPL-3.0",
-        "archived": false,
-        "latest_release": {
-          "tag": "v1.0.25",
-          "published_at": "2026-04-18T12:41:22Z",
-          "url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.0.25"
-        }
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "MioIsland": {
       "group": "ai_coding",
@@ -226,18 +182,7 @@
           "final_url": "https://github.com/MioMioOS/MioIsland/releases/tag/v2.1.7"
         }
       },
-      "github": {
-        "stars": 337,
-        "pushed_at": "2026-04-18T18:20:40Z",
-        "updated_at": "2026-04-19T09:05:47Z",
-        "license": "NOASSERTION",
-        "archived": false,
-        "latest_release": {
-          "tag": "v2.1.7",
-          "published_at": "2026-04-18T18:21:00Z",
-          "url": "https://github.com/MioMioOS/MioIsland/releases/tag/v2.1.7"
-        }
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "Vibe Island": {
       "group": "ai_coding",
@@ -268,18 +213,7 @@
           "final_url": "https://github.com/farouqaldori/claude-island/releases/tag/v1.3.1"
         }
       },
-      "github": {
-        "stars": 2136,
-        "pushed_at": "2026-04-15T00:53:45Z",
-        "updated_at": "2026-04-19T09:48:22Z",
-        "license": "Apache-2.0",
-        "archived": false,
-        "latest_release": {
-          "tag": "v1.3.1",
-          "published_at": "2026-04-15T00:56:54Z",
-          "url": "https://github.com/farouqaldori/claude-island/releases/tag/v1.3.1"
-        }
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "xisland": {
       "group": "ai_coding",
@@ -303,21 +237,10 @@
         },
         "DMG": {
           "status": 200,
-          "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1146022095/012f07cb-0d01-4ee2-9f55-ffd8763dd0b6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-19T12%3A42%3A09Z&rscd=attachment%3B+filename%3DNotchi-1.0.5.dmg&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-19T11%3A41%3A48Z&ske=2026-04-19T12%3A42%3A09Z&sks=b&skv=2018-11-09&sig=lof6TkSa%2FY%2Fdtxg61tRbfWhk%2BEgzrVpTqEKbWERFnWQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NjU5OTIzMCwibmJmIjoxNzc2NTk4OTMwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.JWfFuodAktpWbxOM8M07hJXdH-phCfa1PlAnDgOPXJM&response-content-disposition=attachment%3B%20filename%3DNotchi-1.0.5.dmg&response-content-type=application%2Foctet-stream"
+          "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1146022095/012f07cb-0d01-4ee2-9f55-ffd8763dd0b6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-19T12%3A44%3A03Z&rscd=attachment%3B+filename%3DNotchi-1.0.5.dmg&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-19T11%3A43%3A24Z&ske=2026-04-19T12%3A44%3A03Z&sks=b&skv=2018-11-09&sig=jm%2F1spud1T4Hg3A2YcJuucHrA0y69%2F3S2NDQ1HaTygs%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NjU5OTMwNCwibmJmIjoxNzc2NTk5MDA0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.UfdFyBTWOLfxfE4fxn7C8ZAvMGw5BfosqxuqErNGeQw&response-content-disposition=attachment%3B%20filename%3DNotchi-1.0.5.dmg&response-content-type=application%2Foctet-stream"
         }
       },
-      "github": {
-        "stars": 771,
-        "pushed_at": "2026-04-13T07:43:23Z",
-        "updated_at": "2026-04-18T06:22:59Z",
-        "license": "GPL-3.0",
-        "archived": false,
-        "latest_release": {
-          "tag": "v1.0.5",
-          "published_at": "2026-04-09T14:20:39Z",
-          "url": "https://github.com/sk-ruban/notchi/releases/tag/v1.0.5"
-        }
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "Clautch": {
       "group": "ai_coding",
@@ -335,18 +258,7 @@
           "final_url": "https://github.com/sophiie-ai/clautch/releases/tag/v0.27.0"
         }
       },
-      "github": {
-        "stars": 0,
-        "pushed_at": "2026-04-18T17:48:24Z",
-        "updated_at": "2026-04-18T17:48:27Z",
-        "license": null,
-        "archived": false,
-        "latest_release": {
-          "tag": "v0.27.0",
-          "published_at": "2026-04-18T17:46:19Z",
-          "url": "https://github.com/sophiie-ai/clautch/releases/tag/v0.27.0"
-        }
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "NotchCode": {
       "group": "ai_coding",
@@ -373,18 +285,7 @@
           "final_url": "https://github.com/erha19/ping-island/releases/tag/v0.3.1"
         }
       },
-      "github": {
-        "stars": 142,
-        "pushed_at": "2026-04-19T11:16:06Z",
-        "updated_at": "2026-04-19T11:16:06Z",
-        "license": "Apache-2.0",
-        "archived": false,
-        "latest_release": {
-          "tag": "v0.3.1",
-          "published_at": "2026-04-19T11:21:10Z",
-          "url": "https://github.com/erha19/ping-island/releases/tag/v0.3.1"
-        }
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "Notch Pilot": {
       "group": "ai_coding",
@@ -398,18 +299,7 @@
           "final_url": "https://github.com/devmegablaster/Notch-Pilot/releases/tag/v0.4.8"
         }
       },
-      "github": {
-        "stars": 31,
-        "pushed_at": "2026-04-17T11:45:30Z",
-        "updated_at": "2026-04-19T08:15:18Z",
-        "license": "MIT",
-        "archived": false,
-        "latest_release": {
-          "tag": "v0.4.8",
-          "published_at": "2026-04-17T11:46:24Z",
-          "url": "https://github.com/devmegablaster/Notch-Pilot/releases/tag/v0.4.8"
-        }
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "Tars Notch": {
       "group": "ai_coding",
@@ -423,18 +313,7 @@
           "final_url": "https://github.com/ohernandezdev/tars-notch/releases/tag/v2.0.0"
         }
       },
-      "github": {
-        "stars": 3,
-        "pushed_at": "2026-04-01T11:26:27Z",
-        "updated_at": "2026-04-09T03:58:20Z",
-        "license": "MIT",
-        "archived": false,
-        "latest_release": {
-          "tag": "v2.0.0",
-          "published_at": "2026-03-31T10:34:46Z",
-          "url": "https://github.com/ohernandezdev/tars-notch/releases/tag/v2.0.0"
-        }
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "NotchDrop 原版": {
       "group": "archived",
@@ -444,14 +323,7 @@
           "final_url": "https://github.com/Lakr233/NotchDrop"
         }
       },
-      "github": {
-        "stars": 2021,
-        "pushed_at": "2026-01-07T14:22:53Z",
-        "updated_at": "2026-04-19T11:04:55Z",
-        "license": "MIT",
-        "archived": false,
-        "latest_release": null
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "OpenNotch": {
       "group": "archived",
@@ -465,14 +337,7 @@
           "final_url": "https://github.com/NikitaStogniy/OpenNotch"
         }
       },
-      "github": {
-        "stars": 0,
-        "pushed_at": "2025-11-15T14:35:54Z",
-        "updated_at": "2025-11-15T14:35:57Z",
-        "license": null,
-        "archived": false,
-        "latest_release": null
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "NotchBar": {
       "group": "archived",
@@ -486,14 +351,7 @@
           "final_url": "https://github.com/navtoj/NotchBar"
         }
       },
-      "github": {
-        "stars": 128,
-        "pushed_at": "2025-12-12T22:38:37Z",
-        "updated_at": "2026-04-01T19:34:17Z",
-        "license": "AGPL-3.0",
-        "archived": false,
-        "latest_release": null
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "MediaMate": {
       "group": "archived",
@@ -512,14 +370,7 @@
           "final_url": "https://github.com/adamlyttleapps/notchy"
         }
       },
-      "github": {
-        "stars": 668,
-        "pushed_at": "2026-03-29T15:04:00Z",
-        "updated_at": "2026-04-19T00:53:09Z",
-        "license": "MIT",
-        "archived": false,
-        "latest_release": null
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "VNOCH": {
       "group": "archived",
@@ -535,7 +386,7 @@
       "links": {
         "原官网": {
           "status": "error",
-          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)>"
+          "error": "<urlopen error [Errno 61] Connection refused>"
         }
       }
     },
