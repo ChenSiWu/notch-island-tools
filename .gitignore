@@ -1,4 +1,5 @@
 PRIVATE.md
+LOCAL_DEV.md
 data/local-notes.json
 __pycache__/
 *.pyc
