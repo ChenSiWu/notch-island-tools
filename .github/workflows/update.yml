@@ -1,0 +1,20 @@
+name: Update tool metadata
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * 1"
+
+jobs:
+  update:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: python scripts/update_metadata.py
+      - run: python scripts/render_docs.py --public
+      - name: Show changes
+        run: git diff -- README.md data/generated-metadata.json
+

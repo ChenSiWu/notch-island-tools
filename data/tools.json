@@ -1,0 +1,297 @@
+{
+  "system_requirements": [
+    {"tool": "Atoll", "note": "之前记录为 macOS 14+，更适合 macOS 15+"},
+    {"tool": "BoringNotch", "note": "之前记录为 macOS 14+，Apple Silicon / Intel 均可关注"},
+    {"tool": "NookX", "note": "App Store 工具，之前记录为 macOS 13+"},
+    {"tool": "NotchNook", "note": "之前记录为 macOS 14.6+"},
+    {"tool": "Alcove", "note": "Homebrew Cask 显示 macOS 14+"},
+    {"tool": "MacNotch", "note": "Setapp 页面显示 macOS 14+"},
+    {"tool": "LookieLoo", "note": "官网 / App Store 方向记录为 macOS 15+"},
+    {"tool": "Notchable", "note": "官网方向记录为 macOS 15+"},
+    {"tool": "Notchpad", "note": "官网显示 macOS 14+"},
+    {"tool": "MioIsland", "note": "之前记录为 macOS 15+"},
+    {"tool": "Vibe Island", "note": "Homebrew Cask 显示 macOS 14+"},
+    {"tool": "Notchi", "note": "官网 / Release 方向要求 macOS Sequoia"},
+    {"tool": "Notchy", "note": "GitHub README 方向记录为 macOS 26.0+，因此只放观察区"}
+  ],
+  "general_features": ["音乐/媒体", "文件暂存/传输", "日历/事件", "待办/番茄钟", "系统状态/HUD", "摄像头/镜子", "AI 功能"],
+  "ai_features": ["Claude Code", "Codex", "Gemini CLI", "Cursor / IDE Agent", "OpenCode", "权限审批", "Agent 问题回答", "终端跳转", "用量/额度显示", "iPhone 联动", "插件生态"],
+  "general_choices": [
+    {"need": "一个工具尽量全覆盖", "primary": "Atoll", "backup": "BoringNotch"},
+    {"need": "免费开源、用户多", "primary": "BoringNotch", "backup": "Atoll"},
+    {"need": "音乐、歌词、YouTube / YouTube Music", "primary": "LookieLoo", "backup": "MacNotch、DynamicLake、Atoll"},
+    {"need": "文件暂存 / AirDrop / 拖拽", "primary": "Atoll、BoringNotch、LookieLoo", "backup": "NotchDrop 新版、NotchNook"},
+    {"need": "顺滑动画和原生感", "primary": "Alcove", "backup": "DynamicLake、NotchNook"},
+    {"need": "中文效率、Todo、番茄钟", "primary": "NookX", "backup": "Notchable"},
+    {"need": "Setapp 里顺手试", "primary": "MacNotch、NotchNook", "backup": "无"}
+  ],
+  "ai_choices": [
+    {"need": "开源、多 Agent 覆盖", "primary": "CodeIsland", "backup": "Open Island"},
+    {"need": "local-first、终端/IDE 覆盖广", "primary": "Open Island", "backup": "CodeIsland"},
+    {"need": "Claude Code 深度体验", "primary": "MioIsland", "backup": "Claude Island、Notchi"},
+    {"need": "Codex 监控", "primary": "CodeIsland、Open Island", "backup": "MioIsland、Vibe Island、xisland"},
+    {"need": "省心商业方案", "primary": "Vibe Island", "backup": "NotchCode"},
+    {"need": "免费轻量", "primary": "xisland", "backup": "CodeIsland"},
+    {"need": "iPhone 联动", "primary": "MioIsland", "backup": "无"}
+  ],
+  "general": [
+    {
+      "rank": 1,
+      "name": "Atoll",
+      "status": "推荐，开源",
+      "github_stars": "1.7k+",
+      "github_repo": "Ebullioscopic/Atoll",
+      "metadata": "Release v2.1.0，2026-03-21；仓库 2026-04 仍活跃",
+      "links": [{"label": "GitHub", "url": "https://github.com/Ebullioscopic/Atoll"}, {"label": "Release", "url": "https://github.com/Ebullioscopic/Atoll/releases/latest"}],
+      "summary": "官方写明支持 Apple Music、Spotify 等媒体控制，还包括系统状态、Live Activities、锁屏小组件、文件 Shelf、剪贴板、日历、计时器。当前最适合当主力",
+      "features": {"音乐/媒体": "官方：Apple Music、Spotify 等；第三方音乐需按环境验证", "文件暂存/传输": "有 Shelf", "日历/事件": "有", "待办/番茄钟": "计时器", "系统状态/HUD": "系统状态强，含 CPU/GPU/内存/网络/磁盘", "摄像头/镜子": "需权限，按功能配置", "AI 功能": "非核心"}
+    },
+    {
+      "rank": 2,
+      "name": "BoringNotch",
+      "status": "推荐，开源",
+      "github_stars": "8.4k+",
+      "github_repo": "TheBoredTeam/boring.notch",
+      "metadata": "Release v2.7.3，2025-11-24；社区热度最高",
+      "links": [{"label": "官网", "url": "https://boringnotch.com/"}, {"label": "GitHub", "url": "https://github.com/TheBoredTeam/boring.notch"}, {"label": "Release", "url": "https://github.com/TheBoredTeam/boring.notch/releases/latest"}],
+      "summary": "官网强调媒体控制、文件 Shelf、日历、镜子、电池、HUD 替换。功能没有 Atoll 满，但作为开源备用很稳",
+      "features": {"音乐/媒体": "官方：媒体控制；第三方音乐需按环境验证", "文件暂存/传输": "有 Shelf", "日历/事件": "有", "待办/番茄钟": "不主打", "系统状态/HUD": "电池/HUD 等基础能力", "摄像头/镜子": "有镜子", "AI 功能": "无"}
+    },
+    {
+      "rank": 3,
+      "name": "Alcove",
+      "status": "推荐，闭源商业",
+      "github_stars": "无",
+      "metadata": "Homebrew Cask 1.7.2；近 365 天约 3k+ 安装；官网和下载页可用",
+      "links": [{"label": "官网", "url": "https://tryalcove.com/"}, {"label": "下载页", "url": "https://tryalcove.com/download"}],
+      "summary": "主打通知、Live Activities、HUD、滑动手势、锁屏小组件和原生动画。适合想买一个手感好的商业工具",
+      "features": {"音乐/媒体": "官方主打 Live Activities/HUD，媒体需实测", "文件暂存/传输": "未主打", "日历/事件": "有", "待办/番茄钟": "不主打", "系统状态/HUD": "HUD 强", "摄像头/镜子": "不主打", "AI 功能": "无"}
+    },
+    {
+      "rank": 4,
+      "name": "LookieLoo",
+      "status": "可试，闭源商业",
+      "github_stars": "无",
+      "metadata": "官网和 App Store 可用；定位清楚",
+      "links": [{"label": "官网", "url": "https://lookielooapp.org/"}, {"label": "App Store", "url": "https://apps.apple.com/us/app/lookieloo-rock-your-notch/id6747730721?mt=12"}],
+      "summary": "官方明确支持 Spotify、Apple Music、Chrome/Safari 里的 YouTube 和 YouTube Music，同步歌词、文件托盘、AirDrop、剪贴板历史。适合音乐 + 文件托盘场景",
+      "features": {"音乐/媒体": "官方：Spotify、Apple Music、YouTube/YouTube Music、歌词", "文件暂存/传输": "有文件托盘 + AirDrop", "日历/事件": "不主打", "待办/番茄钟": "无", "系统状态/HUD": "不主打", "摄像头/镜子": "不主打", "AI 功能": "无"}
+    },
+    {
+      "rank": 5,
+      "name": "MacNotch",
+      "status": "可试，闭源商业",
+      "github_stars": "无",
+      "metadata": "Setapp 版本 1.8.4.2；Setapp 信息完整",
+      "links": [{"label": "Setapp", "url": "https://setapp.com/apps/macnotch"}],
+      "summary": "Setapp 写明支持 Spotify、Apple Music、YouTube、浏览器播放器，还包含任务、事件、计时器、小组件、设备电量、文件 Drop、HUD、OpenAI/Ollama 翻译。Setapp 用户值得试",
+      "features": {"音乐/媒体": "官方：Spotify、Apple Music、YouTube、浏览器播放器", "文件暂存/传输": "有文件 Drop", "日历/事件": "有任务/事件", "待办/番茄钟": "有任务/计时器", "系统状态/HUD": "设备电量/HUD", "摄像头/镜子": "不主打", "AI 功能": "OpenAI/Ollama 翻译"}
+    },
+    {
+      "rank": 6,
+      "name": "DynamicLake",
+      "status": "可试，闭源商业",
+      "github_stars": "无",
+      "metadata": "官网可用；功能很多，但版本/下载信息不够结构化",
+      "links": [{"label": "官网", "url": "https://www.dynamiclake.com/"}],
+      "summary": "官方写明 DynaMusic、DynaGlance、通知、来电、DynaDrop、DynaClip、计时器、蓝牙设备提醒、Liquid Glass。适合想试商业全家桶，但不建议优先买",
+      "features": {"音乐/媒体": "官方：DynaMusic", "文件暂存/传输": "DynaDrop/DynaClip", "日历/事件": "DynaGlance", "待办/番茄钟": "计时器", "系统状态/HUD": "有设备/通知类能力", "摄像头/镜子": "不主打", "AI 功能": "无"}
+    },
+    {
+      "rank": 7,
+      "name": "NookX",
+      "status": "可试，闭源 App Store",
+      "github_stars": "无",
+      "metadata": "App Store 当前版本 2026.04.08，发布日期 2026-04-10",
+      "links": [{"label": "App Store", "url": "https://apps.apple.com/us/app/nook-x-%E6%95%88%E7%8E%87%E5%B2%9B-notch-%E7%95%AA%E8%8C%84%E9%92%9F-%E5%88%98%E6%B5%B7-todo/id6733240772?mt=12"}],
+      "summary": "中文效率岛，适合 Todo、番茄钟、天气、快捷启动、速记、展开动效。官方写第三方音乐 / Safari，实际音乐兼容性需要按播放器验证",
+      "features": {"音乐/媒体": "官方：第三方音乐/Safari；具体播放器需验证", "文件暂存/传输": "有文件暂存", "日历/事件": "有", "待办/番茄钟": "强", "系统状态/HUD": "基础信息", "摄像头/镜子": "有镜子", "AI 功能": "内置 AI 对话"}
+    },
+    {
+      "rank": 8,
+      "name": "NotchNook",
+      "status": "可试，闭源商业",
+      "github_stars": "无",
+      "metadata": "Setapp 显示 1.5.5；官网可用；历史直链测试 404",
+      "links": [{"label": "官网", "url": "https://lo.cafe/notchnook"}, {"label": "Setapp", "url": "https://setapp.com/apps/notchnook"}],
+      "summary": "官方/Setapp 描述包含媒体控制、日历事件、文件暂存/传输、摄像头预览。适合轻量成品体验，不建议唯一主力",
+      "features": {"音乐/媒体": "官方：媒体控制；具体播放器需验证", "文件暂存/传输": "有文件托盘/传输", "日历/事件": "有", "待办/番茄钟": "不主打", "系统状态/HUD": "基础", "摄像头/镜子": "有摄像头预览", "AI 功能": "无"}
+    },
+    {
+      "rank": 9,
+      "name": "NotchDrop 新版",
+      "status": "可试，闭源/问题仓库",
+      "github_stars": "无",
+      "metadata": "官网可用，直接 DMG 可下载",
+      "links": [{"label": "官网", "url": "https://www.notchdrop.com/"}, {"label": "DMG", "url": "https://cdn.notchdrop.com/NotchDrop-1.1.dmg"}, {"label": "问题仓库", "url": "https://github.com/muhammadsaddamnur/notchdrop-issues/"}],
+      "summary": "从文件 Drop 扩展到剪贴板、音乐、AI Chat、AI Notes、录屏、摄像头、本地分享、Todo、命令快捷方式、截图标注。更像小工具合集",
+      "features": {"音乐/媒体": "官方：音乐控制", "文件暂存/传输": "强", "日历/事件": "不主打", "待办/番茄钟": "Todo", "系统状态/HUD": "不主打", "摄像头/镜子": "有摄像头", "AI 功能": "AI Chat/AI Notes"}
+    },
+    {
+      "rank": 10,
+      "name": "Notchable",
+      "status": "可试，闭源商业",
+      "github_stars": "无",
+      "metadata": "官网可用，DMG 可下载",
+      "links": [{"label": "官网", "url": "https://notchable.com/"}, {"label": "DMG", "url": "https://files.notchable.com/Notchable.dmg"}],
+      "summary": "不是综合灵动岛，更像刘海里的 Todo / Focus：语音捕捉、AI 分类、番茄钟、日历和提醒同步",
+      "features": {"音乐/媒体": "无", "文件暂存/传输": "无", "日历/事件": "有", "待办/番茄钟": "强", "系统状态/HUD": "无", "摄像头/镜子": "无", "AI 功能": "AI 整理任务"}
+    },
+    {
+      "rank": 11,
+      "name": "Notchpad",
+      "status": "可试，闭源单功能",
+      "github_stars": "无",
+      "metadata": "官网显示 v0.8.4，DMG 可下载",
+      "links": [{"label": "官网", "url": "https://www.notchpad.org/"}, {"label": "DMG", "url": "https://qnxwrepfyxxmifel.public.blob.vercel-storage.com/Notchpad-0.8.4.dmg"}],
+      "summary": "刘海里的常驻记事本，支持打字/语音，本地存储。功能单一，但边界清楚",
+      "features": {"音乐/媒体": "无", "文件暂存/传输": "无", "日历/事件": "无", "待办/番茄钟": "记录工具", "系统状态/HUD": "无", "摄像头/镜子": "无", "AI 功能": "无"}
+    }
+  ],
+  "ai_coding": [
+    {
+      "rank": 1,
+      "name": "CodeIsland",
+      "status": "推荐，开源 MIT",
+      "github_stars": "1k+",
+      "github_repo": "wxtsky/CodeIsland",
+      "metadata": "Release v1.0.21，2026-04-16；中文 README 完整",
+      "links": [{"label": "GitHub", "url": "https://github.com/wxtsky/CodeIsland"}, {"label": "Release", "url": "https://github.com/wxtsky/CodeIsland/releases/latest"}],
+      "summary": "支持 Claude Code、Codex、Gemini CLI、Cursor、Copilot、Trae、Qoder、Factory、CodeBuddy、OpenCode、Kimi Code CLI；像素风角色、自动 Hook、权限审批、问题回答、一键跳转",
+      "features": {"Claude Code": "强", "Codex": "有，基础支持", "Gemini CLI": "有", "Cursor / IDE Agent": "有", "OpenCode": "有", "权限审批": "有", "Agent 问题回答": "有", "终端跳转": "有", "用量/额度显示": "未主打", "iPhone 联动": "无", "插件生态": "无"}
+    },
+    {
+      "rank": 2,
+      "name": "Open Island",
+      "status": "推荐，开源 GPL-3.0",
+      "github_stars": "580+",
+      "github_repo": "Octane0411/open-vibe-island",
+      "metadata": "Release v1.0.25，2026-04-18；仓库活跃",
+      "links": [{"label": "GitHub", "url": "https://github.com/Octane0411/open-vibe-island"}, {"label": "Release", "url": "https://github.com/Octane0411/open-vibe-island/releases/latest"}],
+      "summary": "开源、local-first、无账号无遥测，Agent 和终端/IDE 覆盖很广。适合和 CodeIsland 做同场景对比",
+      "features": {"Claude Code": "强", "Codex": "强", "Gemini CLI": "强", "Cursor / IDE Agent": "强", "OpenCode": "强", "权限审批": "有", "Agent 问题回答": "有", "终端跳转": "强", "用量/额度显示": "有", "iPhone 联动": "无", "插件生态": "无"}
+    },
+    {
+      "rank": 3,
+      "name": "MioIsland",
+      "status": "推荐，开源非商业许可",
+      "github_stars": "330+",
+      "github_repo": "MioMioOS/MioIsland",
+      "metadata": "Release v2.1.7，2026-04-18；仓库活跃",
+      "links": [{"label": "GitHub", "url": "https://github.com/MioMioOS/MioIsland"}, {"label": "Release", "url": "https://github.com/MioMioOS/MioIsland/releases/latest"}],
+      "summary": "Claude Code 深度体验强：像素猫、/buddy、刘海审批、AskUserQuestion、Codex、iPhone Code Light、插件市场、Stats/Music 插件",
+      "features": {"Claude Code": "强", "Codex": "有", "Gemini CLI": "未主打", "Cursor / IDE Agent": "激活/跳转为主", "OpenCode": "未主打", "权限审批": "强", "Agent 问题回答": "有", "终端跳转": "cmux/iTerm/Ghostty/Terminal 等", "用量/额度显示": "有", "iPhone 联动": "强，Code Light", "插件生态": "有插件市场"}
+    },
+    {
+      "rank": 4,
+      "name": "Vibe Island",
+      "status": "推荐，闭源商业",
+      "github_stars": "无",
+      "metadata": "Homebrew Cask 1.0.27；官网信息完整",
+      "links": [{"label": "官网", "url": "https://vibeisland.app/"}, {"label": "下载页", "url": "https://vibeisland.app/download"}],
+      "summary": "商业化完整体验：零配置、GUI 审批、问题回答、Plan Review、用量追踪、SSH Remote、13+ 终端、纯 Swift。开源方案不稳时考虑",
+      "features": {"Claude Code": "强", "Codex": "强", "Gemini CLI": "强", "Cursor / IDE Agent": "强", "OpenCode": "强", "权限审批": "强", "Agent 问题回答": "有", "终端跳转": "强，含 13+ 终端", "用量/额度显示": "有", "iPhone 联动": "无", "插件生态": "声音包/商业扩展"}
+    },
+    {
+      "rank": 5,
+      "name": "Claude Island",
+      "status": "推荐，开源 Apache-2.0",
+      "github_stars": "2.1k+",
+      "github_repo": "farouqaldori/claude-island",
+      "metadata": "Release v1.3.1，2026-04-15；Claude 专用热度高",
+      "links": [{"label": "官网", "url": "https://claudeisland.com/"}, {"label": "GitHub", "url": "https://github.com/farouqaldori/claude-island"}, {"label": "Release", "url": "https://github.com/farouqaldori/claude-island/releases/latest"}],
+      "summary": "Claude Code 专用，权限提醒、实时监控、多会话、聊天历史、SwiftUI 原生",
+      "features": {"Claude Code": "强", "Codex": "无", "Gemini CLI": "无", "Cursor / IDE Agent": "无", "OpenCode": "无", "权限审批": "有", "Agent 问题回答": "未主打", "终端跳转": "有", "用量/额度显示": "未主打", "iPhone 联动": "无", "插件生态": "无"}
+    },
+    {
+      "rank": 6,
+      "name": "xisland",
+      "status": "推荐/可试，免费",
+      "github_stars": "源码入口未确认",
+      "metadata": "官网显示 v0.2.0；Homebrew 安装明确",
+      "links": [{"label": "官网", "url": "https://xisland.app/"}],
+      "summary": "免费、Swift 原生，支持 Claude Code、Codex、Gemini CLI、OpenCode；有 Notch/Pill 模式、审批、回答、终端跳转、键盘优先",
+      "features": {"Claude Code": "强", "Codex": "有", "Gemini CLI": "有", "Cursor / IDE Agent": "有", "OpenCode": "有", "权限审批": "有", "Agent 问题回答": "有", "终端跳转": "有", "用量/额度显示": "有", "iPhone 联动": "无", "插件生态": "未主打"}
+    },
+    {
+      "rank": 7,
+      "name": "Notchi",
+      "status": "可试，开源 GPL-3.0",
+      "github_stars": "770+",
+      "github_repo": "sk-ruban/notchi",
+      "metadata": "Release v1.0.5，2026-04-09；仓库活跃",
+      "links": [{"label": "官网", "url": "https://notchi.app/"}, {"label": "GitHub", "url": "https://github.com/sk-ruban/notchi"}, {"label": "DMG", "url": "https://github.com/sk-ruban/notchi/releases/download/v1.0.5/Notchi-1.0.5.dmg"}],
+      "summary": "Claude Code companion，实时响应 thought、tool call、error；要求 macOS Sequoia",
+      "features": {"Claude Code": "强", "Codex": "无", "Gemini CLI": "无", "Cursor / IDE Agent": "无", "OpenCode": "无", "权限审批": "状态为主", "Agent 问题回答": "未主打", "终端跳转": "未主打", "用量/额度显示": "未主打", "iPhone 联动": "无", "插件生态": "无"}
+    },
+    {
+      "rank": 8,
+      "name": "Clautch",
+      "status": "可试，源码可见",
+      "github_stars": "0",
+      "github_repo": "sophiie-ai/clautch",
+      "metadata": "Release v0.27.0，2026-04-18；仓库很新",
+      "links": [{"label": "官网", "url": "https://clautch.app/"}, {"label": "GitHub", "url": "https://github.com/sophiie-ai/clautch"}, {"label": "Release", "url": "https://github.com/sophiie-ai/clautch/releases/latest"}],
+      "summary": "Claude Code 状态宠物，带团队房间、聊天、像素反应和等待输入提醒，更偏陪伴和团队氛围",
+      "features": {"Claude Code": "强", "Codex": "无", "Gemini CLI": "无", "Cursor / IDE Agent": "无", "OpenCode": "无", "权限审批": "提醒为主", "Agent 问题回答": "未主打", "终端跳转": "未主打", "用量/额度显示": "有", "iPhone 联动": "无", "插件生态": "无"}
+    },
+    {
+      "rank": 9,
+      "name": "NotchCode",
+      "status": "可试，闭源商业",
+      "github_stars": "无",
+      "metadata": "官网可用，闭源商业",
+      "links": [{"label": "官网", "url": "https://notchcode.dev/"}],
+      "summary": "支持 Claude Code、Gemini CLI、Codex；实时监控、Inline Approval、聊天历史、智能通知，依赖 tmux 管理会话",
+      "features": {"Claude Code": "强", "Codex": "有", "Gemini CLI": "有", "Cursor / IDE Agent": "无", "OpenCode": "无", "权限审批": "有", "Agent 问题回答": "未主打", "终端跳转": "tmux 方向", "用量/额度显示": "未主打", "iPhone 联动": "无", "插件生态": "无"}
+    },
+    {
+      "rank": 10,
+      "name": "Ping Island",
+      "status": "观察，开源 Apache-2.0",
+      "github_stars": "140+",
+      "github_repo": "erha19/ping-island",
+      "metadata": "Release v0.3.0，2026-04-18；仓库活跃但项目早期",
+      "links": [{"label": "主页", "url": "https://erha19.github.io/ping-island"}, {"label": "GitHub", "url": "https://github.com/erha19/ping-island"}, {"label": "Release", "url": "https://github.com/erha19/ping-island/releases/latest"}],
+      "summary": "Vibe Island 风格，支持审批、追问、窗口跳转，适合作为开源替代观察",
+      "features": {"Claude Code": "有", "Codex": "待确认", "Gemini CLI": "待确认", "Cursor / IDE Agent": "待确认", "OpenCode": "待确认", "权限审批": "有", "Agent 问题回答": "有", "终端跳转": "有", "用量/额度显示": "待确认", "iPhone 联动": "无", "插件生态": "无"}
+    },
+    {
+      "rank": 11,
+      "name": "Notch Pilot",
+      "status": "观察，开源 MIT",
+      "github_stars": "30+",
+      "github_repo": "devmegablaster/Notch-Pilot",
+      "metadata": "Release v0.4.8，2026-04-17；项目很新",
+      "links": [{"label": "GitHub", "url": "https://github.com/devmegablaster/Notch-Pilot"}, {"label": "Release", "url": "https://github.com/devmegablaster/Notch-Pilot/releases/latest"}],
+      "summary": "Claude 用量、会话状态、权限提示、动画 buddy；先观察稳定性",
+      "features": {"Claude Code": "有", "Codex": "无", "Gemini CLI": "无", "Cursor / IDE Agent": "无", "OpenCode": "无", "权限审批": "提醒为主", "Agent 问题回答": "未主打", "终端跳转": "未主打", "用量/额度显示": "有", "iPhone 联动": "无", "插件生态": "无"}
+    },
+    {
+      "rank": 12,
+      "name": "Tars Notch",
+      "status": "观察，开源 MIT",
+      "github_stars": "3",
+      "github_repo": "ohernandezdev/tars-notch",
+      "metadata": "Release v2.0.0，2026-03-31；热度低",
+      "links": [{"label": "GitHub", "url": "https://github.com/ohernandezdev/tars-notch"}, {"label": "Release", "url": "https://github.com/ohernandezdev/tars-notch/releases/latest"}],
+      "summary": "支持 Claude Code 和 GitHub Copilot CLI；多会话状态、权限审批、模型/模式、subagent 状态、本地 HTTP 服务",
+      "features": {"Claude Code": "有", "Codex": "无", "Gemini CLI": "无", "Cursor / IDE Agent": "无", "OpenCode": "无", "权限审批": "有", "Agent 问题回答": "未主打", "终端跳转": "未主打", "用量/额度显示": "未主打", "iPhone 联动": "无", "插件生态": "无"}
+    }
+  ],
+  "archived": [
+    {"name": "NotchDrop 原版", "category": "观察，开源 MIT", "github_stars": "2k+", "github_repo": "Lakr233/NotchDrop", "metadata": "仓库 2026-01 仍有活动，但无正式 Release", "links": [{"label": "GitHub", "url": "https://github.com/Lakr233/NotchDrop"}], "reason": "原版专注文件暂存和 AirDrop，思路干净，但安装入口不够清晰"},
+    {"name": "OpenNotch", "category": "观察，开源情况不明", "github_stars": "0", "github_repo": "NikitaStogniy/OpenNotch", "metadata": "仓库 2025-11 后未见 Release", "links": [{"label": "官网", "url": "https://www.opennotch.com/"}, {"label": "GitHub", "url": "https://github.com/NikitaStogniy/OpenNotch"}], "reason": "文件 Drop、计算器、快速访问，功能轻，但热度很低"},
+    {"name": "NotchBar", "category": "观察，开源 AGPL-3.0", "github_stars": "120+", "github_repo": "navtoj/NotchBar", "metadata": "仓库 2025-12 活跃；官网写 1.5.4，但 GitHub 最新公开 Release 是 2025-01 prerelease", "links": [{"label": "官网", "url": "https://deepak-kumar.github.io/NotchBar-Distribution/"}, {"label": "GitHub", "url": "https://github.com/navtoj/NotchBar"}], "reason": "媒体、系统状态、文件托盘、截图/录屏、全局热键，像开源控制中心，但版本信息不一致"},
+    {"name": "MediaMate", "category": "归档/边界类", "github_stars": "无", "metadata": "官网可访问，页面版权停在 2024", "links": [{"label": "官网", "url": "https://wouter01.github.io/MediaMate/"}], "reason": "更像媒体/HUD 工具，不是完整灵动岛"},
+    {"name": "Notchy", "category": "观察，开源 MIT", "github_stars": "660+", "github_repo": "adamlyttleapps/notchy", "metadata": "仓库 2026-03 活跃，但无 Release，要求 macOS 26.0+", "links": [{"label": "GitHub", "url": "https://github.com/adamlyttleapps/notchy"}], "reason": "Xcode + Claude 的内嵌终端面板，需要源码构建"},
+    {"name": "VNOCH", "category": "过时/不可用", "github_stars": "无", "metadata": "官网和下载页测试 404", "links": [{"label": "原官网", "url": "https://www.vnoch.app/"}], "reason": "保留记录，不作为当前候选"},
+    {"name": "NotchPro", "category": "过时/不可用", "github_stars": "无", "metadata": "官网 SSL 访问失败", "links": [{"label": "原官网", "url": "https://notchpro.app/"}], "reason": "下载入口不可确认"},
+    {"name": "DynamicNotch", "category": "过时/早期 Demo", "github_stars": "无", "metadata": "官网仍可访问，但显示早期 v0.0.0 - M1 Chip，插件/小组件仍是 coming soon", "links": [{"label": "官网", "url": "https://dynamic-notch.iamzachmoore.com/"}], "reason": "早期 Demo，当前不建议试"},
+    {"name": "NotchHub", "category": "谨慎", "github_stars": "无", "metadata": "官网可访问，但下载指向 mediafireupload.xyz/Launcher.dmg", "links": [{"label": "官网", "url": "https://notchhub.pro/"}], "reason": "下载链路不可信，先不要装"},
+    {"name": "Notchmeister", "category": "归档/娱乐", "github_stars": "无", "metadata": "原 Iconfactory 链接测试 404", "links": [{"label": "原说明", "url": "https://blog.iconfactory.com/2021/11/notchmeister/"}], "reason": "趣味玩具，不是生产力工具"},
+    {"name": "TopNotch", "category": "归档/边界类", "github_stars": "无", "metadata": "官网可访问", "links": [{"label": "官网", "url": "https://topnotch.app/"}], "reason": "用来隐藏刘海，不是灵动岛"},
+    {"name": "Notched Up", "category": "归档/测试工具", "github_stars": "无", "metadata": "官网可访问", "links": [{"label": "官网", "url": "https://ohanaware.com/notchedup/"}], "reason": "模拟刘海，方便测试和截图"},
+    {"name": "Notch", "category": "归档/同名无关", "github_stars": "无", "metadata": "官网可访问", "links": [{"label": "官网", "url": "https://www.notch.sh/"}], "reason": "名字相似，但实际是开发者笔记本"}
+  ]
+}

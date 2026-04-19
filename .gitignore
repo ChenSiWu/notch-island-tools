@@ -1,0 +1,7 @@
+PRIVATE.md
+data/local-notes.json
+data/generated-metadata.json
+__pycache__/
+*.pyc
+.DS_Store
+

@@ -1,0 +1,20 @@
+{
+  "installed_packages": [
+    {"tool": "Atoll", "file": "Atoll.2.1.0.dmg", "role": "通用主力"}
+  ],
+  "verification": [
+    {
+      "scenario": "QQ 音乐实时识别",
+      "official": "多个工具写了媒体能力，但不一定点名 QQ 音乐",
+      "local": "待测"
+    }
+  ],
+  "extra_verification": [
+    {
+      "item": "Hook 配置与卸载",
+      "why": "AI Coding 工具可能修改 Claude、Codex、Gemini、Cursor、OpenCode 配置",
+      "status": "安装前后记录相关配置文件"
+    }
+  ]
+}
+
