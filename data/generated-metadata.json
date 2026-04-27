@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20T04:50:24.718032+00:00",
+  "updated_at": "2026-04-27T05:00:15.854893+00:00",
   "tools": {
     "Atoll": {
       "group": "general",
@@ -14,9 +14,9 @@
         }
       },
       "github": {
-        "stars": 1769,
-        "pushed_at": "2026-04-19T15:04:18Z",
-        "updated_at": "2026-04-20T00:48:37Z",
+        "stars": 1838,
+        "pushed_at": "2026-04-23T06:21:48Z",
+        "updated_at": "2026-04-26T22:49:24Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
@@ -43,9 +43,9 @@
         }
       },
       "github": {
-        "stars": 8521,
-        "pushed_at": "2026-04-20T03:35:52Z",
-        "updated_at": "2026-04-20T04:07:04Z",
+        "stars": 8706,
+        "pushed_at": "2026-04-27T01:33:36Z",
+        "updated_at": "2026-04-27T04:59:34Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
@@ -173,19 +173,19 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/wxtsky/CodeIsland/releases/tag/v1.0.21"
+          "final_url": "https://github.com/wxtsky/CodeIsland/releases/tag/v1.0.23"
         }
       },
       "github": {
-        "stars": 1085,
-        "pushed_at": "2026-04-16T17:25:11Z",
-        "updated_at": "2026-04-20T04:32:39Z",
+        "stars": 1210,
+        "pushed_at": "2026-04-25T14:14:45Z",
+        "updated_at": "2026-04-27T04:56:01Z",
         "license": "MIT",
         "archived": false,
         "latest_release": {
-          "tag": "v1.0.21",
-          "published_at": "2026-04-16T17:23:13Z",
-          "url": "https://github.com/wxtsky/CodeIsland/releases/tag/v1.0.21"
+          "tag": "v1.0.23",
+          "published_at": "2026-04-25T14:13:47Z",
+          "url": "https://github.com/wxtsky/CodeIsland/releases/tag/v1.0.23"
         }
       }
     },
@@ -198,19 +198,19 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.0.26"
+          "final_url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.0.27"
         }
       },
       "github": {
-        "stars": 606,
-        "pushed_at": "2026-04-19T14:29:30Z",
-        "updated_at": "2026-04-20T03:32:42Z",
+        "stars": 779,
+        "pushed_at": "2026-04-22T11:52:19Z",
+        "updated_at": "2026-04-27T03:32:36Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
-          "tag": "v1.0.26",
-          "published_at": "2026-04-19T13:57:51Z",
-          "url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.0.26"
+          "tag": "v1.0.27",
+          "published_at": "2026-04-22T11:37:22Z",
+          "url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.0.27"
         }
       }
     },
@@ -223,19 +223,19 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/MioMioOS/MioIsland/releases/tag/v2.1.9"
+          "final_url": "https://github.com/MioMioOS/MioIsland/releases/tag/v2.2.8"
         }
       },
       "github": {
-        "stars": 347,
-        "pushed_at": "2026-04-20T04:00:03Z",
-        "updated_at": "2026-04-20T04:35:55Z",
+        "stars": 392,
+        "pushed_at": "2026-04-25T15:18:54Z",
+        "updated_at": "2026-04-26T09:13:16Z",
         "license": "NOASSERTION",
         "archived": false,
         "latest_release": {
-          "tag": "v2.1.9",
-          "published_at": "2026-04-20T03:28:10Z",
-          "url": "https://github.com/MioMioOS/MioIsland/releases/tag/v2.1.9"
+          "tag": "v2.2.8",
+          "published_at": "2026-04-25T15:19:01Z",
+          "url": "https://github.com/MioMioOS/MioIsland/releases/tag/v2.2.8"
         }
       }
     },
@@ -256,28 +256,28 @@
       "group": "ai_coding",
       "links": {
         "官网": {
-          "status": 200,
+          "status": 451,
           "final_url": "https://claudeisland.com/"
         },
         "GitHub": {
           "status": 200,
-          "final_url": "https://github.com/farouqaldori/claude-island"
+          "final_url": "https://github.com/farouqaldori/vibe-notch"
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/farouqaldori/claude-island/releases/tag/v1.3.1"
+          "final_url": "https://github.com/farouqaldori/vibe-notch/releases/tag/v1.3.2"
         }
       },
       "github": {
-        "stars": 2147,
-        "pushed_at": "2026-04-15T00:53:45Z",
-        "updated_at": "2026-04-20T03:54:58Z",
+        "stars": 2215,
+        "pushed_at": "2026-04-20T20:02:57Z",
+        "updated_at": "2026-04-27T04:55:31Z",
         "license": "Apache-2.0",
         "archived": false,
         "latest_release": {
-          "tag": "v1.3.1",
-          "published_at": "2026-04-15T00:56:54Z",
-          "url": "https://github.com/farouqaldori/claude-island/releases/tag/v1.3.1"
+          "tag": "v1.3.2",
+          "published_at": "2026-04-20T19:57:40Z",
+          "url": "https://github.com/farouqaldori/vibe-notch/releases/tag/v1.3.2"
         }
       }
     },
@@ -303,13 +303,13 @@
         },
         "DMG": {
           "status": 200,
-          "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1146022095/012f07cb-0d01-4ee2-9f55-ffd8763dd0b6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-20T05%3A39%3A11Z&rscd=attachment%3B+filename%3DNotchi-1.0.5.dmg&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-20T04%3A38%3A21Z&ske=2026-04-20T05%3A39%3A11Z&sks=b&skv=2018-11-09&sig=Oz9ImDA%2FJMvQc8RQrFtLsClmQzTSMLNyRn8dHbpf9vU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NjY2MDk0MywibmJmIjoxNzc2NjYwNjQzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.XGBDeoDJTNo433UoKL01Kz__S6fyz96ksfkTdD85LWk&response-content-disposition=attachment%3B%20filename%3DNotchi-1.0.5.dmg&response-content-type=application%2Foctet-stream"
+          "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1146022095/012f07cb-0d01-4ee2-9f55-ffd8763dd0b6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-27T05%3A37%3A04Z&rscd=attachment%3B+filename%3DNotchi-1.0.5.dmg&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-27T04%3A36%3A27Z&ske=2026-04-27T05%3A37%3A04Z&sks=b&skv=2018-11-09&sig=U7HTb%2BrmPyItMH%2FgeZ6H%2BrgmRq8r8r7lCZJx%2FtdwVCw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzI2NjMzOSwibmJmIjoxNzc3MjY2MDM5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.4jCUKomII5gjn9dyB6atpqYa-NNi0DzjMiVqWMUJBvo&response-content-disposition=attachment%3B%20filename%3DNotchi-1.0.5.dmg&response-content-type=application%2Foctet-stream"
         }
       },
       "github": {
-        "stars": 771,
-        "pushed_at": "2026-04-13T07:43:23Z",
-        "updated_at": "2026-04-18T06:22:59Z",
+        "stars": 794,
+        "pushed_at": "2026-04-27T04:28:39Z",
+        "updated_at": "2026-04-27T04:28:43Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
@@ -332,19 +332,19 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/sophiie-ai/clautch/releases/tag/v0.27.0"
+          "final_url": "https://github.com/sophiie-ai/clautch/releases/tag/v0.28.0"
         }
       },
       "github": {
         "stars": 0,
-        "pushed_at": "2026-04-18T17:48:24Z",
-        "updated_at": "2026-04-18T17:48:27Z",
+        "pushed_at": "2026-04-24T00:26:49Z",
+        "updated_at": "2026-04-24T00:26:54Z",
         "license": null,
         "archived": false,
         "latest_release": {
-          "tag": "v0.27.0",
-          "published_at": "2026-04-18T17:46:19Z",
-          "url": "https://github.com/sophiie-ai/clautch/releases/tag/v0.27.0"
+          "tag": "v0.28.0",
+          "published_at": "2026-04-24T00:24:01Z",
+          "url": "https://github.com/sophiie-ai/clautch/releases/tag/v0.28.0"
         }
       }
     },
@@ -370,19 +370,19 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/erha19/ping-island/releases/tag/v0.3.2"
+          "final_url": "https://github.com/erha19/ping-island/releases/tag/v0.7.2"
         }
       },
       "github": {
-        "stars": 146,
-        "pushed_at": "2026-04-19T18:01:54Z",
-        "updated_at": "2026-04-20T04:30:29Z",
+        "stars": 367,
+        "pushed_at": "2026-04-26T04:33:29Z",
+        "updated_at": "2026-04-27T03:57:50Z",
         "license": "Apache-2.0",
         "archived": false,
         "latest_release": {
-          "tag": "v0.3.2",
-          "published_at": "2026-04-19T17:53:40Z",
-          "url": "https://github.com/erha19/ping-island/releases/tag/v0.3.2"
+          "tag": "v0.7.2",
+          "published_at": "2026-04-26T04:38:19Z",
+          "url": "https://github.com/erha19/ping-island/releases/tag/v0.7.2"
         }
       }
     },
@@ -399,16 +399,12 @@
         }
       },
       "github": {
-        "stars": 35,
+        "stars": 50,
         "pushed_at": "2026-04-19T15:46:28Z",
-        "updated_at": "2026-04-20T03:31:19Z",
+        "updated_at": "2026-04-25T16:39:48Z",
         "license": "MIT",
         "archived": false,
-        "latest_release": {
-          "tag": "v0.4.9",
-          "published_at": "2026-04-19T15:47:40Z",
-          "url": "https://github.com/devmegablaster/Notch-Pilot/releases/tag/v0.4.9"
-        }
+        "latest_release": null
       }
     },
     "Tars Notch": {
@@ -423,18 +419,7 @@
           "final_url": "https://github.com/ohernandezdev/tars-notch/releases/tag/v2.0.0"
         }
       },
-      "github": {
-        "stars": 3,
-        "pushed_at": "2026-04-01T11:26:27Z",
-        "updated_at": "2026-04-09T03:58:20Z",
-        "license": "MIT",
-        "archived": false,
-        "latest_release": {
-          "tag": "v2.0.0",
-          "published_at": "2026-03-31T10:34:46Z",
-          "url": "https://github.com/ohernandezdev/tars-notch/releases/tag/v2.0.0"
-        }
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "NotchDrop 原版": {
       "group": "archived",
@@ -444,14 +429,7 @@
           "final_url": "https://github.com/Lakr233/NotchDrop"
         }
       },
-      "github": {
-        "stars": 2021,
-        "pushed_at": "2026-01-07T14:22:53Z",
-        "updated_at": "2026-04-19T23:05:31Z",
-        "license": "MIT",
-        "archived": false,
-        "latest_release": null
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "OpenNotch": {
       "group": "archived",
@@ -465,14 +443,7 @@
           "final_url": "https://github.com/NikitaStogniy/OpenNotch"
         }
       },
-      "github": {
-        "stars": 0,
-        "pushed_at": "2025-11-15T14:35:54Z",
-        "updated_at": "2025-11-15T14:35:57Z",
-        "license": null,
-        "archived": false,
-        "latest_release": null
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "NotchBar": {
       "group": "archived",
@@ -486,14 +457,7 @@
           "final_url": "https://github.com/navtoj/NotchBar"
         }
       },
-      "github": {
-        "stars": 128,
-        "pushed_at": "2025-12-12T22:38:37Z",
-        "updated_at": "2026-04-01T19:34:17Z",
-        "license": "AGPL-3.0",
-        "archived": false,
-        "latest_release": null
-      }
+      "github_error": "HTTP Error 403: rate limit exceeded"
     },
     "MediaMate": {
       "group": "archived",
@@ -513,9 +477,9 @@
         }
       },
       "github": {
-        "stars": 669,
+        "stars": 685,
         "pushed_at": "2026-03-29T15:04:00Z",
-        "updated_at": "2026-04-19T19:02:30Z",
+        "updated_at": "2026-04-26T14:40:36Z",
         "license": "MIT",
         "archived": false,
         "latest_release": null
