@@ -47,7 +47,49 @@ def load_project_data(root: Path) -> tuple[dict[str, Any], dict[str, Any]]:
     return tools, local
 
 
-def render_tool_table(tools: list[dict[str, Any]]) -> str:
+def load_generated_metadata(root: Path) -> dict[str, Any]:
+    return load_json(root / "data" / "generated-metadata.json", {"tools": {}})
+
+
+def tool_metadata(tool: dict[str, Any], generated: dict[str, Any]) -> dict[str, Any]:
+    return generated.get("tools", {}).get(tool["name"], {})
+
+
+def display_github_stars(tool: dict[str, Any], generated: dict[str, Any]) -> str:
+    metadata = tool_metadata(tool, generated)
+    stars = metadata.get("github", {}).get("stars")
+    if isinstance(stars, int):
+        if stars >= 1000:
+            return f"{stars / 1000:.1f}k+".replace(".0k+", "k+")
+        return str(stars)
+    return tool.get("github_stars", "无")
+
+
+def display_metadata(tool: dict[str, Any], generated: dict[str, Any]) -> str:
+    metadata = tool_metadata(tool, generated)
+    github = metadata.get("github", {})
+    latest = github.get("latest_release") or {}
+    if latest.get("tag"):
+        parts = [f"Release {latest['tag']}，{(latest.get('published_at') or '')[:10]}"]
+        if github.get("pushed_at"):
+            parts.append(f"仓库最近更新 {(github['pushed_at'] or '')[:10]}")
+        return "；".join(part for part in parts if part and not part.endswith("，"))
+
+    app_store = metadata.get("app_store", {})
+    if app_store.get("version"):
+        parts = [f"App Store 当前版本 {app_store['version']}"]
+        if app_store.get("release_date"):
+            parts.append(f"发布日期 {app_store['release_date']}")
+        return "，".join(parts)
+
+    homebrew = metadata.get("homebrew", {})
+    if homebrew.get("version"):
+        return f"Homebrew Cask {homebrew['version']}"
+
+    return tool["metadata"]
+
+
+def render_tool_table(tools: list[dict[str, Any]], generated: dict[str, Any]) -> str:
     rows: list[list[str]] = []
     for item in tools:
         rows.append(
@@ -55,8 +97,8 @@ def render_tool_table(tools: list[dict[str, Any]]) -> str:
                 str(item["rank"]),
                 item["name"],
                 item["status"],
-                item.get("github_stars", "无"),
-                item["metadata"],
+                display_github_stars(item, generated),
+                display_metadata(item, generated),
                 link_list(item["links"]),
                 item["summary"],
             ]
@@ -100,6 +142,7 @@ def render_reference_index(tools: dict[str, Any]) -> str:
 
 def render_public(root: Path = ROOT) -> str:
     tools, _ = load_project_data(root)
+    generated = load_generated_metadata(root)
     today = dt.date.today().isoformat()
     parts = [
         "# Mac 刘海屏 / 灵动岛工具对比",
@@ -141,7 +184,7 @@ def render_public(root: Path = ROOT) -> str:
         "",
         "## 通用工具总表",
         "",
-        render_tool_table(tools["general"]),
+        render_tool_table(tools["general"], generated),
         "",
         "## 通用场景快速选择",
         "",
@@ -155,7 +198,7 @@ def render_public(root: Path = ROOT) -> str:
         "",
         "## AI Coding 工具总表",
         "",
-        render_tool_table(tools.get("ai_coding", [])),
+        render_tool_table(tools.get("ai_coding", []), generated),
         "",
         "## AI Coding 场景快速选择",
         "",
