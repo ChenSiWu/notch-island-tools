@@ -90,6 +90,10 @@ def display_metadata(tool: dict[str, Any], generated: dict[str, Any]) -> str:
     if setapp.get("version"):
         return f"Setapp 版本 {setapp['version']}"
 
+    website = metadata.get("website_version", {})
+    if website.get("version"):
+        return f"{website.get('label', '官网版本')} {website['version']}"
+
     return tool["metadata"]
 
 
@@ -216,7 +220,7 @@ def render_public(root: Path = ROOT) -> str:
         "",
         "## 观察 / 过时 / 归档 / 谨慎列表",
         "",
-        render_archived_table(tools["archived"]),
+        render_archived_table(tools["archived"], generated),
         "",
         render_security_rules(),
         "",
@@ -226,13 +230,13 @@ def render_public(root: Path = ROOT) -> str:
     return "\n".join(parts)
 
 
-def render_archived_table(items: list[dict[str, Any]]) -> str:
+def render_archived_table(items: list[dict[str, Any]], generated: dict[str, Any]) -> str:
     rows = [
         [
             item["name"],
             item["category"],
-            item.get("github_stars", "无"),
-            item["metadata"],
+            display_github_stars(item, generated),
+            display_metadata(item, generated),
             link_list(item["links"]),
             item["reason"],
         ]

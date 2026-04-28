@@ -63,9 +63,9 @@
 | 6 | DynamicLake | 可试，闭源商业 | 无 | 官网可用；功能很多，但版本/下载信息不够结构化 | [官网](https://www.dynamiclake.com/) | 官方写明 DynaMusic、DynaGlance、通知、来电、DynaDrop、DynaClip、计时器、蓝牙设备提醒、Liquid Glass。适合想试商业全家桶，但不建议优先买 |
 | 7 | NookX | 可试，闭源 App Store | 无 | App Store 当前版本 2026.04.08，发布日期 2026-04-10 | [App Store](https://apps.apple.com/us/app/nook-x-%E6%95%88%E7%8E%87%E5%B2%9B-notch-%E7%95%AA%E8%8C%84%E9%92%9F-%E5%88%98%E6%B5%B7-todo/id6733240772?mt=12) | 中文效率岛，适合 Todo、番茄钟、天气、快捷启动、速记、展开动效。官方写第三方音乐 / Safari，实际音乐兼容性需要按播放器验证 |
 | 8 | NotchNook | 可试，闭源商业 | 无 | Setapp 版本 1.5.5 | [官网](https://lo.cafe/notchnook) / [Setapp](https://setapp.com/apps/notchnook) | 官方/Setapp 描述包含媒体控制、日历事件、文件暂存/传输、摄像头预览。适合轻量成品体验，不建议唯一主力 |
-| 9 | NotchDrop 新版 | 可试，闭源/问题仓库 | 无 | 官网可用，直接 DMG 可下载 | [官网](https://www.notchdrop.com/) / [DMG](https://cdn.notchdrop.com/NotchDrop-1.1.dmg) / [问题仓库](https://github.com/muhammadsaddamnur/notchdrop-issues/) | 从文件 Drop 扩展到剪贴板、音乐、AI Chat、AI Notes、录屏、摄像头、本地分享、Todo、命令快捷方式、截图标注。更像小工具合集 |
+| 9 | NotchDrop 新版 | 可试，闭源/问题仓库 | 无 | 官网版本 1.1 | [官网](https://www.notchdrop.com/) / [DMG](https://cdn.notchdrop.com/NotchDrop-1.1.dmg) / [问题仓库](https://github.com/muhammadsaddamnur/notchdrop-issues/) | 从文件 Drop 扩展到剪贴板、音乐、AI Chat、AI Notes、录屏、摄像头、本地分享、Todo、命令快捷方式、截图标注。更像小工具合集 |
 | 10 | Notchable | 可试，闭源商业 | 无 | 官网可用，DMG 可下载 | [官网](https://notchable.com/) / [DMG](https://files.notchable.com/Notchable.dmg) | 不是综合灵动岛，更像刘海里的 Todo / Focus：语音捕捉、AI 分类、番茄钟、日历和提醒同步 |
-| 11 | Notchpad | 可试，闭源单功能 | 无 | 官网显示 v0.8.4，DMG 可下载 | [官网](https://www.notchpad.org/) / [DMG](https://qnxwrepfyxxmifel.public.blob.vercel-storage.com/Notchpad-0.8.4.dmg) | 刘海里的常驻记事本，支持打字/语音，本地存储。功能单一，但边界清楚 |
+| 11 | Notchpad | 可试，闭源单功能 | 无 | 官网版本 0.8.4 | [官网](https://www.notchpad.org/) / [DMG](https://qnxwrepfyxxmifel.public.blob.vercel-storage.com/Notchpad-0.8.4.dmg) | 刘海里的常驻记事本，支持打字/语音，本地存储。功能单一，但边界清楚 |
 
 ## 通用场景快速选择
 
@@ -145,13 +145,13 @@
 | 工具 | 分类 | GitHub Stars | 更新/状态 | 地址 | 保留原因 |
 | --- | --- | --- | --- | --- | --- |
 | NotchDrop 原版 | 观察，开源 MIT | 2k+ | 仓库 2026-01 仍有活动，但无正式 Release | [GitHub](https://github.com/Lakr233/NotchDrop) | 原版专注文件暂存和 AirDrop，思路干净，但安装入口不够清晰 |
-| OpenNotch | 观察，开源情况不明 | 0 | 仓库 2025-11 后未见 Release | [官网](https://www.opennotch.com/) / [GitHub](https://github.com/NikitaStogniy/OpenNotch) | 文件 Drop、计算器、快速访问，功能轻，但热度很低 |
-| NotchBar | 观察，开源 AGPL-3.0 | 120+ | 仓库 2025-12 活跃；官网写 1.5.4，但 GitHub 最新公开 Release 是 2025-01 prerelease | [官网](https://deepak-kumar.github.io/NotchBar-Distribution/) / [GitHub](https://github.com/navtoj/NotchBar) | 媒体、系统状态、文件托盘、截图/录屏、全局热键，像开源控制中心，但版本信息不一致 |
+| OpenNotch | 观察，开源情况不明 | 1 | 仓库 2025-11 后未见 Release | [官网](https://www.opennotch.com/) / [GitHub](https://github.com/NikitaStogniy/OpenNotch) | 文件 Drop、计算器、快速访问，功能轻，但热度很低 |
+| NotchBar | 观察，开源 AGPL-3.0 | 129 | 官网版本 1.5.4 | [官网](https://deepak-kumar.github.io/NotchBar-Distribution/) / [GitHub](https://github.com/navtoj/NotchBar) | 媒体、系统状态、文件托盘、截图/录屏、全局热键，像开源控制中心，但版本信息不一致 |
 | MediaMate | 归档/边界类 | 无 | 官网可访问，页面版权停在 2024 | [官网](https://wouter01.github.io/MediaMate/) | 更像媒体/HUD 工具，不是完整灵动岛 |
-| Notchy | 观察，开源 MIT | 660+ | 仓库 2026-03 活跃，但无 Release，要求 macOS 26.0+ | [GitHub](https://github.com/adamlyttleapps/notchy) | Xcode + Claude 的内嵌终端面板，需要源码构建 |
+| Notchy | 观察，开源 MIT | 687 | 仓库 2026-03 活跃，但无 Release，要求 macOS 26.0+ | [GitHub](https://github.com/adamlyttleapps/notchy) | Xcode + Claude 的内嵌终端面板，需要源码构建 |
 | VNOCH | 过时/不可用 | 无 | 官网和下载页测试 404 | [原官网](https://www.vnoch.app/) | 保留记录，不作为当前候选 |
 | NotchPro | 过时/不可用 | 无 | 官网 SSL 访问失败 | [原官网](https://notchpro.app/) | 下载入口不可确认 |
-| DynamicNotch | 过时/早期 Demo | 无 | 官网仍可访问，但显示早期 v0.0.0 - M1 Chip，插件/小组件仍是 coming soon | [官网](https://dynamic-notch.iamzachmoore.com/) | 早期 Demo，当前不建议试 |
+| DynamicNotch | 过时/早期 Demo | 无 | 官网版本 0.0.0 | [官网](https://dynamic-notch.iamzachmoore.com/) | 早期 Demo，当前不建议试 |
 | NotchHub | 谨慎 | 无 | 官网可访问，但下载指向 mediafireupload.xyz/Launcher.dmg | [官网](https://notchhub.pro/) | 下载链路不可信，先不要装 |
 | Notchmeister | 归档/娱乐 | 无 | 原 Iconfactory 链接测试 404 | [原说明](https://blog.iconfactory.com/2021/11/notchmeister/) | 趣味玩具，不是生产力工具 |
 | TopNotch | 归档/边界类 | 无 | 官网可访问 | [官网](https://topnotch.app/) | 用来隐藏刘海，不是灵动岛 |

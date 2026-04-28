@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-28T07:41:50.039732+00:00",
+  "updated_at": "2026-04-28T07:57:34.345396+00:00",
   "tools": {
     "Atoll": {
       "group": "general",
@@ -159,6 +159,11 @@
           "status": 200,
           "final_url": "https://github.com/muhammadsaddamnur/notchdrop-issues/"
         }
+      },
+      "website_version": {
+        "version": "1.1",
+        "label": "官网版本",
+        "source_url": "https://www.notchdrop.com/"
       }
     },
     "Notchable": {
@@ -185,6 +190,11 @@
           "status": 200,
           "final_url": "https://qnxwrepfyxxmifel.public.blob.vercel-storage.com/Notchpad-0.8.4.dmg"
         }
+      },
+      "website_version": {
+        "version": "0.8.4",
+        "label": "官网版本",
+        "source_url": "https://www.notchpad.org/"
       }
     },
     "CodeIsland": {
@@ -285,7 +295,10 @@
       "links": {
         "官网": {
           "status": 451,
-          "final_url": "https://claudeisland.com/"
+          "final_url": "https://claudeisland.com/",
+          "allowed_statuses": [
+            451
+          ]
         },
         "GitHub": {
           "status": 200,
@@ -351,7 +364,7 @@
         },
         "DMG": {
           "status": 200,
-          "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1146022095/012f07cb-0d01-4ee2-9f55-ffd8763dd0b6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-28T08%3A41%3A34Z&rscd=attachment%3B+filename%3DNotchi-1.0.5.dmg&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-28T07%3A40%3A43Z&ske=2026-04-28T08%3A41%3A34Z&sks=b&skv=2018-11-09&sig=rkwGcAEzMI1hxZUkmNBfU0M%2FScVIQ6l%2FaEoVVpb1NE0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzM2MjQ4MSwibmJmIjoxNzc3MzYyMTgxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.EoJbjclUI2yZC0wtGik5ubrI94fN9bdw_VD1_Xe9oPQ&response-content-disposition=attachment%3B%20filename%3DNotchi-1.0.5.dmg&response-content-type=application%2Foctet-stream"
+          "final_url": "https://github.com/sk-ruban/notchi/releases/download/v1.0.5/Notchi-1.0.5.dmg"
         }
       },
       "github": {
@@ -541,6 +554,11 @@
         "license": "AGPL-3.0",
         "archived": false,
         "latest_release": null
+      },
+      "website_version": {
+        "version": "1.5.4",
+        "label": "官网版本",
+        "source_url": "https://deepak-kumar.github.io/NotchBar-Distribution/"
       }
     },
     "MediaMate": {
@@ -594,6 +612,11 @@
           "status": 200,
           "final_url": "https://dynamic-notch.iamzachmoore.com/"
         }
+      },
+      "website_version": {
+        "version": "0.0.0",
+        "label": "官网版本",
+        "source_url": "https://dynamic-notch.iamzachmoore.com/"
       }
     },
     "NotchHub": {

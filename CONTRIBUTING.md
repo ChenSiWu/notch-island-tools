@@ -9,7 +9,7 @@
   - 用来生成公开的 `README.md`
 
 - `data/generated-metadata.json`
-  - 自动化生成的 GitHub / 链接状态数据
+  - 自动化生成的 GitHub、App Store、Homebrew、Setapp、官网版本和链接状态数据
   - 允许提交到公开仓库
 
 - `data/local-notes.json`
@@ -57,6 +57,8 @@ make update-private
 - 客观信息交给自动化更新：
   - GitHub stars
   - Release 信息
+  - App Store / Homebrew / Setapp 版本
+  - 可配置官网版本
   - 链接状态
   - 公开 README
 

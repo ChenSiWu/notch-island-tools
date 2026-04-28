@@ -192,6 +192,95 @@ class RenderDocsTest(unittest.TestCase):
         output = render_public(self.root)
         self.assertIn("1.8.7.4", output)
 
+    def test_public_document_prefers_generated_website_version(self):
+        tools = self.root / "data" / "tools.json"
+        tools.write_text(
+            """
+{
+  "general": [
+    {
+      "name": "Notchpad",
+      "rank": 1,
+      "status": "可试，闭源单功能",
+      "metadata": "官网显示 v0.8.4",
+      "links": [{"label": "官网", "url": "https://example.com/notchpad"}],
+      "summary": "记事本",
+      "features": {"待办/番茄钟": "记录工具"}
+    }
+  ],
+  "ai_coding": [],
+  "archived": []
+}
+""",
+            encoding="utf-8",
+        )
+        (self.root / "data" / "generated-metadata.json").write_text(
+            """
+{
+  "updated_at": "2026-04-28T00:00:00+00:00",
+  "tools": {
+    "Notchpad": {
+      "group": "general",
+      "website_version": {
+        "version": "0.9.1",
+        "label": "官网版本",
+        "source_url": "https://example.com/notchpad"
+      }
+    }
+  }
+}
+""",
+            encoding="utf-8",
+        )
+
+        output = render_public(self.root)
+        self.assertIn("官网版本 0.9.1", output)
+        self.assertNotIn("官网显示 v0.8.4", output)
+
+    def test_archived_table_uses_generated_metadata_when_available(self):
+        tools = self.root / "data" / "tools.json"
+        tools.write_text(
+            """
+{
+  "general": [],
+  "ai_coding": [],
+  "archived": [
+    {
+      "name": "NotchBar",
+      "category": "观察，开源 AGPL-3.0",
+      "github_stars": "120+",
+      "metadata": "官网写 1.5.4",
+      "links": [{"label": "GitHub", "url": "https://example.com/notchbar"}],
+      "reason": "版本信息不一致"
+    }
+  ]
+}
+""",
+            encoding="utf-8",
+        )
+        (self.root / "data" / "generated-metadata.json").write_text(
+            """
+{
+  "updated_at": "2026-04-28T00:00:00+00:00",
+  "tools": {
+    "NotchBar": {
+      "group": "archived",
+      "github": {"stars": 222},
+      "website_version": {
+        "version": "1.5.5",
+        "label": "官网版本",
+        "source_url": "https://example.com/notchbar"
+      }
+    }
+  }
+}
+""",
+            encoding="utf-8",
+        )
+
+        output = render_public(self.root)
+        self.assertIn("| NotchBar | 观察，开源 AGPL-3.0 | 222 | 官网版本 1.5.5 |", output)
+
 
 if __name__ == "__main__":
     unittest.main()
