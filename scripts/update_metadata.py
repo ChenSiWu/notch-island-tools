@@ -133,6 +133,28 @@ def homebrew_metadata(cask: str) -> dict[str, Any] | None:
     }
 
 
+def fetch_text(url: str) -> str | None:
+    headers = {**HEADERS, "Accept": "text/html,application/xhtml+xml"}
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=20) as response:
+            return response.read().decode("utf-8", "ignore")
+    except Exception:
+        return None
+
+
+def setapp_metadata(url: str) -> dict[str, Any] | None:
+    html = fetch_text(url)
+    if not html:
+        return None
+    match = re.search(r'Version":"([0-9.]+)"', html)
+    if not match:
+        match = re.search(r'Version\s+([0-9.]+)', html, re.I)
+    if not match:
+        return None
+    return {"version": match.group(1)}
+
+
 def collect() -> dict[str, Any]:
     tools = load_json(ROOT / "data" / "tools.json", {})
     metadata: dict[str, Any] = {"updated_at": dt.datetime.now(dt.UTC).isoformat(), "tools": {}}
@@ -155,6 +177,11 @@ def collect() -> dict[str, Any]:
                 brew = homebrew_metadata(cask)
                 if brew:
                     item["homebrew"] = brew
+            setapp_url = tool.get("setapp_url")
+            if setapp_url:
+                setapp = setapp_metadata(setapp_url)
+                if setapp:
+                    item["setapp"] = setapp
             for link in tool.get("links", []):
                 item["links"][link["label"]] = check_url(link["url"])
             metadata["tools"][tool["name"]] = item

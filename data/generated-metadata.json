@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-28T07:34:22.553324+00:00",
+  "updated_at": "2026-04-28T07:41:50.039732+00:00",
   "tools": {
     "Atoll": {
       "group": "general",
@@ -99,6 +99,9 @@
           "status": 200,
           "final_url": "https://setapp.com/apps/macnotch"
         }
+      },
+      "setapp": {
+        "version": "1.8.7.4"
       }
     },
     "DynamicLake": {
@@ -136,6 +139,9 @@
           "status": 200,
           "final_url": "https://setapp.com/apps/notchnook"
         }
+      },
+      "setapp": {
+        "version": "1.5.5"
       }
     },
     "NotchDrop 新版": {
@@ -309,6 +315,26 @@
         "官网": {
           "status": 200,
           "final_url": "https://xisland.app/"
+        },
+        "GitHub": {
+          "status": 200,
+          "final_url": "https://github.com/bluedusk/xisland"
+        },
+        "Release": {
+          "status": 200,
+          "final_url": "https://github.com/bluedusk/xisland/releases/tag/v0.16.0"
+        }
+      },
+      "github": {
+        "stars": 12,
+        "pushed_at": "2026-04-26T02:20:42Z",
+        "updated_at": "2026-04-26T02:20:46Z",
+        "license": null,
+        "archived": false,
+        "latest_release": {
+          "tag": "v0.16.0",
+          "published_at": "2026-04-26T02:20:37Z",
+          "url": "https://github.com/bluedusk/xisland/releases/tag/v0.16.0"
         }
       }
     },
@@ -325,7 +351,7 @@
         },
         "DMG": {
           "status": 200,
-          "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1146022095/012f07cb-0d01-4ee2-9f55-ffd8763dd0b6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-28T08%3A11%3A18Z&rscd=attachment%3B+filename%3DNotchi-1.0.5.dmg&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-28T07%3A10%3A38Z&ske=2026-04-28T08%3A11%3A18Z&sks=b&skv=2018-11-09&sig=cAq7N5MCbT05nhS71URhxpHGyiCa1EMKB0lZcopHjEU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzM2MjAzMSwibmJmIjoxNzc3MzYxNzMxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.69AqsbQeh70CHSJfYUMhnZykHS3NO4oWSoWOFqBXzhg&response-content-disposition=attachment%3B%20filename%3DNotchi-1.0.5.dmg&response-content-type=application%2Foctet-stream"
+          "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1146022095/012f07cb-0d01-4ee2-9f55-ffd8763dd0b6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-28T08%3A41%3A34Z&rscd=attachment%3B+filename%3DNotchi-1.0.5.dmg&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-28T07%3A40%3A43Z&ske=2026-04-28T08%3A41%3A34Z&sks=b&skv=2018-11-09&sig=rkwGcAEzMI1hxZUkmNBfU0M%2FScVIQ6l%2FaEoVVpb1NE0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzM2MjQ4MSwibmJmIjoxNzc3MzYyMTgxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.EoJbjclUI2yZC0wtGik5ubrI94fN9bdw_VD1_Xe9oPQ&response-content-disposition=attachment%3B%20filename%3DNotchi-1.0.5.dmg&response-content-type=application%2Foctet-stream"
         }
       },
       "github": {

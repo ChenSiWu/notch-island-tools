@@ -127,6 +127,15 @@ class RenderDocsTest(unittest.TestCase):
       "links": [{"label": "官网", "url": "https://example.com/alcove"}],
       "summary": "动画工具",
       "features": {"系统状态/HUD": "HUD"}
+    },
+    {
+      "name": "MacNotch",
+      "rank": 3,
+      "status": "可试，闭源商业",
+      "metadata": "Setapp 页面可用",
+      "links": [{"label": "Setapp", "url": "https://example.com/macnotch"}],
+      "summary": "Setapp 工具",
+      "features": {"系统状态/HUD": "HUD"}
     }
   ],
   "ai_coding": [],
@@ -140,6 +149,48 @@ class RenderDocsTest(unittest.TestCase):
 
         self.assertIn("2.3.4", output)
         self.assertIn("1.7.2", output)
+
+    def test_public_document_prefers_generated_setapp_version(self):
+        tools = self.root / "data" / "tools.json"
+        tools.write_text(
+            """
+{
+  "general": [
+    {
+      "name": "MacNotch",
+      "rank": 1,
+      "status": "可试，闭源商业",
+      "metadata": "Setapp 页面可用",
+      "links": [{"label": "Setapp", "url": "https://example.com/macnotch"}],
+      "summary": "Setapp 工具",
+      "features": {"系统状态/HUD": "HUD"}
+    }
+  ],
+  "ai_coding": [],
+  "archived": []
+}
+""",
+            encoding="utf-8",
+        )
+        (self.root / "data" / "generated-metadata.json").write_text(
+            """
+{
+  "updated_at": "2026-04-28T00:00:00+00:00",
+  "tools": {
+    "MacNotch": {
+      "group": "general",
+      "setapp": {
+        "version": "1.8.7.4"
+      }
+    }
+  }
+}
+""",
+            encoding="utf-8",
+        )
+
+        output = render_public(self.root)
+        self.assertIn("1.8.7.4", output)
 
 
 if __name__ == "__main__":

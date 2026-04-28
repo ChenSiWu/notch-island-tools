@@ -86,6 +86,10 @@ def display_metadata(tool: dict[str, Any], generated: dict[str, Any]) -> str:
     if homebrew.get("version"):
         return f"Homebrew Cask {homebrew['version']}"
 
+    setapp = metadata.get("setapp", {})
+    if setapp.get("version"):
+        return f"Setapp 版本 {setapp['version']}"
+
     return tool["metadata"]
 
 

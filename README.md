@@ -59,10 +59,10 @@
 | 2 | BoringNotch | 推荐，开源 | 8.7k+ | Release v2.7.3，2025-11-24；仓库最近更新 2026-04-27 | [官网](https://boringnotch.com/) / [GitHub](https://github.com/TheBoredTeam/boring.notch) / [Release](https://github.com/TheBoredTeam/boring.notch/releases/latest) | 官网强调媒体控制、文件 Shelf、日历、镜子、电池、HUD 替换。功能没有 Atoll 满，但作为开源备用很稳 |
 | 3 | Alcove | 推荐，闭源商业 | 无 | Homebrew Cask 1.7.2 | [官网](https://tryalcove.com/) / [下载页](https://tryalcove.com/download) | 主打通知、Live Activities、HUD、滑动手势、锁屏小组件和原生动画。适合想买一个手感好的商业工具 |
 | 4 | LookieLoo | 可试，闭源商业 | 无 | App Store 当前版本 1.3.1，发布日期 2025-12-23 | [官网](https://lookielooapp.org/) / [App Store](https://apps.apple.com/us/app/lookieloo-rock-your-notch/id6747730721?mt=12) | 官方明确支持 Spotify、Apple Music、Chrome/Safari 里的 YouTube 和 YouTube Music，同步歌词、文件托盘、AirDrop、剪贴板历史。适合音乐 + 文件托盘场景 |
-| 5 | MacNotch | 可试，闭源商业 | 无 | Setapp 版本 1.8.4.2；Setapp 信息完整 | [Setapp](https://setapp.com/apps/macnotch) | Setapp 写明支持 Spotify、Apple Music、YouTube、浏览器播放器，还包含任务、事件、计时器、小组件、设备电量、文件 Drop、HUD、OpenAI/Ollama 翻译。Setapp 用户值得试 |
+| 5 | MacNotch | 可试，闭源商业 | 无 | Setapp 版本 1.8.7.4 | [Setapp](https://setapp.com/apps/macnotch) | Setapp 写明支持 Spotify、Apple Music、YouTube、浏览器播放器，还包含任务、事件、计时器、小组件、设备电量、文件 Drop、HUD、OpenAI/Ollama 翻译。Setapp 用户值得试 |
 | 6 | DynamicLake | 可试，闭源商业 | 无 | 官网可用；功能很多，但版本/下载信息不够结构化 | [官网](https://www.dynamiclake.com/) | 官方写明 DynaMusic、DynaGlance、通知、来电、DynaDrop、DynaClip、计时器、蓝牙设备提醒、Liquid Glass。适合想试商业全家桶，但不建议优先买 |
 | 7 | NookX | 可试，闭源 App Store | 无 | App Store 当前版本 2026.04.08，发布日期 2026-04-10 | [App Store](https://apps.apple.com/us/app/nook-x-%E6%95%88%E7%8E%87%E5%B2%9B-notch-%E7%95%AA%E8%8C%84%E9%92%9F-%E5%88%98%E6%B5%B7-todo/id6733240772?mt=12) | 中文效率岛，适合 Todo、番茄钟、天气、快捷启动、速记、展开动效。官方写第三方音乐 / Safari，实际音乐兼容性需要按播放器验证 |
-| 8 | NotchNook | 可试，闭源商业 | 无 | Setapp 显示 1.5.5；官网可用；历史直链测试 404 | [官网](https://lo.cafe/notchnook) / [Setapp](https://setapp.com/apps/notchnook) | 官方/Setapp 描述包含媒体控制、日历事件、文件暂存/传输、摄像头预览。适合轻量成品体验，不建议唯一主力 |
+| 8 | NotchNook | 可试，闭源商业 | 无 | Setapp 版本 1.5.5 | [官网](https://lo.cafe/notchnook) / [Setapp](https://setapp.com/apps/notchnook) | 官方/Setapp 描述包含媒体控制、日历事件、文件暂存/传输、摄像头预览。适合轻量成品体验，不建议唯一主力 |
 | 9 | NotchDrop 新版 | 可试，闭源/问题仓库 | 无 | 官网可用，直接 DMG 可下载 | [官网](https://www.notchdrop.com/) / [DMG](https://cdn.notchdrop.com/NotchDrop-1.1.dmg) / [问题仓库](https://github.com/muhammadsaddamnur/notchdrop-issues/) | 从文件 Drop 扩展到剪贴板、音乐、AI Chat、AI Notes、录屏、摄像头、本地分享、Todo、命令快捷方式、截图标注。更像小工具合集 |
 | 10 | Notchable | 可试，闭源商业 | 无 | 官网可用，DMG 可下载 | [官网](https://notchable.com/) / [DMG](https://files.notchable.com/Notchable.dmg) | 不是综合灵动岛，更像刘海里的 Todo / Focus：语音捕捉、AI 分类、番茄钟、日历和提醒同步 |
 | 11 | Notchpad | 可试，闭源单功能 | 无 | 官网显示 v0.8.4，DMG 可下载 | [官网](https://www.notchpad.org/) / [DMG](https://qnxwrepfyxxmifel.public.blob.vercel-storage.com/Notchpad-0.8.4.dmg) | 刘海里的常驻记事本，支持打字/语音，本地存储。功能单一，但边界清楚 |
@@ -102,7 +102,7 @@
 | 3 | MioIsland | 推荐，开源非商业许可 | 396 | Release v2.3.0，2026-04-28；仓库最近更新 2026-04-28 | [GitHub](https://github.com/MioMioOS/MioIsland) / [Release](https://github.com/MioMioOS/MioIsland/releases/latest) | Claude Code 深度体验强：像素猫、/buddy、刘海审批、AskUserQuestion、Codex、iPhone Code Light、插件市场、Stats/Music 插件 |
 | 4 | Vibe Island | 推荐，闭源商业 | 无 | Homebrew Cask 1.0.29 | [官网](https://vibeisland.app/) / [下载页](https://vibeisland.app/download) | 商业化完整体验：零配置、GUI 审批、问题回答、Plan Review、用量追踪、SSH Remote、13+ 终端、纯 Swift。开源方案不稳时考虑 |
 | 5 | Claude Island | 推荐，开源 Apache-2.0 | 2.2k+ | Release v1.3.2，2026-04-20；仓库最近更新 2026-04-20 | [官网](https://claudeisland.com/) / [GitHub](https://github.com/farouqaldori/claude-island) / [Release](https://github.com/farouqaldori/claude-island/releases/latest) | Claude Code 专用，权限提醒、实时监控、多会话、聊天历史、SwiftUI 原生 |
-| 6 | xisland | 推荐/可试，免费 | 源码入口未确认 | 官网显示 v0.2.0；Homebrew 安装明确 | [官网](https://xisland.app/) | 免费、Swift 原生，支持 Claude Code、Codex、Gemini CLI、OpenCode；有 Notch/Pill 模式、审批、回答、终端跳转、键盘优先 |
+| 6 | xisland | 推荐/可试，免费 | 12 | Release v0.16.0，2026-04-26；仓库最近更新 2026-04-26 | [官网](https://xisland.app/) / [GitHub](https://github.com/bluedusk/xisland) / [Release](https://github.com/bluedusk/xisland/releases/latest) | 免费、Swift 原生，支持 Claude Code、Codex、Gemini CLI、OpenCode；有 Notch/Pill 模式、审批、回答、终端跳转、键盘优先 |
 | 7 | Notchi | 可试，开源 GPL-3.0 | 806 | Release v1.0.5，2026-04-09；仓库最近更新 2026-04-27 | [官网](https://notchi.app/) / [GitHub](https://github.com/sk-ruban/notchi) / [DMG](https://github.com/sk-ruban/notchi/releases/download/v1.0.5/Notchi-1.0.5.dmg) | Claude Code companion，实时响应 thought、tool call、error；要求 macOS Sequoia |
 | 8 | Clautch | 可试，源码可见 | 0 | Release v0.28.0，2026-04-24；仓库最近更新 2026-04-24 | [官网](https://clautch.app/) / [GitHub](https://github.com/sophiie-ai/clautch) / [Release](https://github.com/sophiie-ai/clautch/releases/latest) | Claude Code 状态宠物，带团队房间、聊天、像素反应和等待输入提醒，更偏陪伴和团队氛围 |
 | 9 | NotchCode | 可试，闭源商业 | 无 | 官网可用，闭源商业 | [官网](https://notchcode.dev/) | 支持 Claude Code、Gemini CLI、Codex；实时监控、Inline Approval、聊天历史、智能通知，依赖 tmux 管理会话 |
@@ -207,6 +207,8 @@
 - [Claude Island GitHub](https://github.com/farouqaldori/claude-island)
 - [Claude Island Release](https://github.com/farouqaldori/claude-island/releases/latest)
 - [xisland 官网](https://xisland.app/)
+- [xisland GitHub](https://github.com/bluedusk/xisland)
+- [xisland Release](https://github.com/bluedusk/xisland/releases/latest)
 - [Notchi 官网](https://notchi.app/)
 - [Notchi GitHub](https://github.com/sk-ruban/notchi)
 - [Notchi DMG](https://github.com/sk-ruban/notchi/releases/download/v1.0.5/Notchi-1.0.5.dmg)
