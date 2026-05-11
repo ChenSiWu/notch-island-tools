@@ -1,6 +1,6 @@
 # Mac 刘海屏 / 灵动岛工具对比
 
-更新时间：2026-05-04
+更新时间：2026-05-11
 
 这份文档分成两大类：通用刘海屏 / 灵动岛工具，以及 AI Coding / Vibe Coding 刘海屏工具。
 
@@ -55,11 +55,11 @@
 
 | 排名 | 工具 | 状态 | GitHub Stars | 更新/热度/反馈 | 地址 | 官方功能范围与我的判断 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Atoll | 推荐，开源 | 1.7k+ | Release v2.1.0，2026-03-21；仓库 2026-04 仍活跃 | [GitHub](https://github.com/Ebullioscopic/Atoll) / [Release](https://github.com/Ebullioscopic/Atoll/releases/latest) | 官方写明支持 Apple Music、Spotify 等媒体控制，还包括系统状态、Live Activities、锁屏小组件、文件 Shelf、剪贴板、日历、计时器。当前最适合当主力 |
-| 2 | BoringNotch | 推荐，开源 | 8.4k+ | Release v2.7.3，2025-11-24；社区热度最高 | [官网](https://boringnotch.com/) / [GitHub](https://github.com/TheBoredTeam/boring.notch) / [Release](https://github.com/TheBoredTeam/boring.notch/releases/latest) | 官网强调媒体控制、文件 Shelf、日历、镜子、电池、HUD 替换。功能没有 Atoll 满，但作为开源备用很稳 |
+| 1 | Atoll | 推荐，开源 | 1.9k+ | Release v2.1.0，2026-03-21；仓库最近更新 2026-05-10 | [GitHub](https://github.com/Ebullioscopic/Atoll) / [Release](https://github.com/Ebullioscopic/Atoll/releases/latest) | 官方写明支持 Apple Music、Spotify 等媒体控制，还包括系统状态、Live Activities、锁屏小组件、文件 Shelf、剪贴板、日历、计时器。当前最适合当主力 |
+| 2 | BoringNotch | 推荐，开源 | 9k+ | Release v2.7.3，2025-11-24；仓库最近更新 2026-05-09 | [官网](https://boringnotch.com/) / [GitHub](https://github.com/TheBoredTeam/boring.notch) / [Release](https://github.com/TheBoredTeam/boring.notch/releases/latest) | 官网强调媒体控制、文件 Shelf、日历、镜子、电池、HUD 替换。功能没有 Atoll 满，但作为开源备用很稳 |
 | 3 | Alcove | 推荐，闭源商业 | 无 | Homebrew Cask 1.7.2 | [官网](https://tryalcove.com/) / [下载页](https://tryalcove.com/download) | 主打通知、Live Activities、HUD、滑动手势、锁屏小组件和原生动画。适合想买一个手感好的商业工具 |
 | 4 | LookieLoo | 可试，闭源商业 | 无 | App Store 当前版本 1.3.1，发布日期 2025-12-23 | [官网](https://lookielooapp.org/) / [App Store](https://apps.apple.com/us/app/lookieloo-rock-your-notch/id6747730721?mt=12) | 官方明确支持 Spotify、Apple Music、Chrome/Safari 里的 YouTube 和 YouTube Music，同步歌词、文件托盘、AirDrop、剪贴板历史。适合音乐 + 文件托盘场景 |
-| 5 | MacNotch | 可试，闭源商业 | 无 | Setapp 版本 1.8.7.6 | [Setapp](https://setapp.com/apps/macnotch) | Setapp 写明支持 Spotify、Apple Music、YouTube、浏览器播放器，还包含任务、事件、计时器、小组件、设备电量、文件 Drop、HUD、OpenAI/Ollama 翻译。Setapp 用户值得试 |
+| 5 | MacNotch | 可试，闭源商业 | 无 | Setapp 版本 1.8.8.1 | [Setapp](https://setapp.com/apps/macnotch) | Setapp 写明支持 Spotify、Apple Music、YouTube、浏览器播放器，还包含任务、事件、计时器、小组件、设备电量、文件 Drop、HUD、OpenAI/Ollama 翻译。Setapp 用户值得试 |
 | 6 | DynamicLake | 可试，闭源商业 | 无 | 官网可用；功能很多，但版本/下载信息不够结构化 | [官网](https://www.dynamiclake.com/) | 官方写明 DynaMusic、DynaGlance、通知、来电、DynaDrop、DynaClip、计时器、蓝牙设备提醒、Liquid Glass。适合想试商业全家桶，但不建议优先买 |
 | 7 | NookX | 可试，闭源 App Store | 无 | App Store 当前版本 2026.05.05，发布日期 2026-05-03 | [App Store](https://apps.apple.com/us/app/nook-x-%E6%95%88%E7%8E%87%E5%B2%9B-notch-%E7%95%AA%E8%8C%84%E9%92%9F-%E5%88%98%E6%B5%B7-todo/id6733240772?mt=12) | 中文效率岛，适合 Todo、番茄钟、天气、快捷启动、速记、展开动效。官方写第三方音乐 / Safari，实际音乐兼容性需要按播放器验证 |
 | 8 | NotchNook | 可试，闭源商业 | 无 | Setapp 版本 1.5.5 | [官网](https://lo.cafe/notchnook) / [Setapp](https://setapp.com/apps/notchnook) | 官方/Setapp 描述包含媒体控制、日历事件、文件暂存/传输、摄像头预览。适合轻量成品体验，不建议唯一主力 |
@@ -97,9 +97,9 @@
 
 | 排名 | 工具 | 状态 | GitHub Stars | 更新/热度/反馈 | 地址 | 官方功能范围与我的判断 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | CodeIsland | 推荐，开源 MIT | 1k+ | Release v1.0.21，2026-04-16；中文 README 完整 | [GitHub](https://github.com/wxtsky/CodeIsland) / [Release](https://github.com/wxtsky/CodeIsland/releases/latest) | 支持 Claude Code、Codex、Gemini CLI、Cursor、Copilot、Trae、Qoder、Factory、CodeBuddy、OpenCode、Kimi Code CLI；像素风角色、自动 Hook、权限审批、问题回答、一键跳转 |
-| 2 | Open Island | 推荐，开源 GPL-3.0 | 580+ | Release v1.0.25，2026-04-18；仓库活跃 | [GitHub](https://github.com/Octane0411/open-vibe-island) / [Release](https://github.com/Octane0411/open-vibe-island/releases/latest) | 开源、local-first、无账号无遥测，Agent 和终端/IDE 覆盖很广。适合和 CodeIsland 做同场景对比 |
-| 3 | MioIsland | 推荐，开源非商业许可 | 330+ | Release v2.1.7，2026-04-18；仓库活跃 | [GitHub](https://github.com/MioMioOS/MioIsland) / [Release](https://github.com/MioMioOS/MioIsland/releases/latest) | Claude Code 深度体验强：像素猫、/buddy、刘海审批、AskUserQuestion、Codex、iPhone Code Light、插件市场、Stats/Music 插件 |
+| 1 | CodeIsland | 推荐，开源 MIT | 1.4k+ | Release v1.0.21，2026-04-16；中文 README 完整 | [GitHub](https://github.com/wxtsky/CodeIsland) / [Release](https://github.com/wxtsky/CodeIsland/releases/latest) | 支持 Claude Code、Codex、Gemini CLI、Cursor、Copilot、Trae、Qoder、Factory、CodeBuddy、OpenCode、Kimi Code CLI；像素风角色、自动 Hook、权限审批、问题回答、一键跳转 |
+| 2 | Open Island | 推荐，开源 GPL-3.0 | 968 | Release v1.0.25，2026-04-18；仓库活跃 | [GitHub](https://github.com/Octane0411/open-vibe-island) / [Release](https://github.com/Octane0411/open-vibe-island/releases/latest) | 开源、local-first、无账号无遥测，Agent 和终端/IDE 覆盖很广。适合和 CodeIsland 做同场景对比 |
+| 3 | MioIsland | 推荐，开源非商业许可 | 435 | Release v2.1.7，2026-04-18；仓库活跃 | [GitHub](https://github.com/MioMioOS/MioIsland) / [Release](https://github.com/MioMioOS/MioIsland/releases/latest) | Claude Code 深度体验强：像素猫、/buddy、刘海审批、AskUserQuestion、Codex、iPhone Code Light、插件市场、Stats/Music 插件 |
 | 4 | Vibe Island | 推荐，闭源商业 | 无 | Homebrew Cask 1.0.29 | [官网](https://vibeisland.app/) / [下载页](https://vibeisland.app/download) | 商业化完整体验：零配置、GUI 审批、问题回答、Plan Review、用量追踪、SSH Remote、13+ 终端、纯 Swift。开源方案不稳时考虑 |
 | 5 | Claude Island | 推荐，开源 Apache-2.0 | 2.1k+ | Release v1.3.1，2026-04-15；Claude 专用热度高 | [官网](https://claudeisland.com/) / [GitHub](https://github.com/farouqaldori/claude-island) / [Release](https://github.com/farouqaldori/claude-island/releases/latest) | Claude Code 专用，权限提醒、实时监控、多会话、聊天历史、SwiftUI 原生 |
 | 6 | xisland | 推荐/可试，免费 | 12+ | 官网显示 v0.2.0；Homebrew 安装明确 | [官网](https://xisland.app/) / [GitHub](https://github.com/bluedusk/xisland) / [Release](https://github.com/bluedusk/xisland/releases/latest) | 免费、Swift 原生，支持 Claude Code、Codex、Gemini CLI、OpenCode；有 Notch/Pill 模式、审批、回答、终端跳转、键盘优先 |
