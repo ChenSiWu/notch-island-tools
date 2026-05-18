@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-11T05:51:02.468858+00:00",
+  "updated_at": "2026-05-18T06:04:12.085223+00:00",
   "tools": {
     "Atoll": {
       "group": "general",
@@ -14,9 +14,9 @@
         }
       },
       "github": {
-        "stars": 1928,
-        "pushed_at": "2026-05-10T15:20:31Z",
-        "updated_at": "2026-05-11T03:42:28Z",
+        "stars": 1971,
+        "pushed_at": "2026-05-18T04:37:54Z",
+        "updated_at": "2026-05-18T04:37:59Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
@@ -43,9 +43,9 @@
         }
       },
       "github": {
-        "stars": 9019,
-        "pushed_at": "2026-05-09T21:52:42Z",
-        "updated_at": "2026-05-11T04:38:59Z",
+        "stars": 9160,
+        "pushed_at": "2026-05-16T20:08:48Z",
+        "updated_at": "2026-05-18T04:37:02Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
@@ -101,7 +101,7 @@
         }
       },
       "setapp": {
-        "version": "1.8.8.1"
+        "version": "1.8.9"
       }
     },
     "DynamicLake": {
@@ -210,12 +210,16 @@
         }
       },
       "github": {
-        "stars": 1420,
+        "stars": 1533,
         "pushed_at": "2026-05-10T15:20:27Z",
-        "updated_at": "2026-05-11T03:54:55Z",
+        "updated_at": "2026-05-18T03:42:01Z",
         "license": "MIT",
         "archived": false,
-        "latest_release": null
+        "latest_release": {
+          "tag": "v1.0.24",
+          "published_at": "2026-04-29T07:37:50Z",
+          "url": "https://github.com/wxtsky/CodeIsland/releases/tag/v1.0.24"
+        }
       }
     },
     "Open Island": {
@@ -227,16 +231,20 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.1.1"
+          "final_url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.1.2"
         }
       },
       "github": {
-        "stars": 968,
-        "pushed_at": "2026-05-09T18:06:39Z",
-        "updated_at": "2026-05-11T05:50:57Z",
+        "stars": 1056,
+        "pushed_at": "2026-05-13T13:55:55Z",
+        "updated_at": "2026-05-18T03:35:22Z",
         "license": "GPL-3.0",
         "archived": false,
-        "latest_release": null
+        "latest_release": {
+          "tag": "v1.1.2",
+          "published_at": "2026-05-12T16:26:21Z",
+          "url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.1.2"
+        }
       }
     },
     "MioIsland": {
@@ -248,16 +256,20 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/MioMioOS/MioIsland/releases/tag/v2.3.0"
+          "final_url": "https://github.com/MioMioOS/MioIsland/releases/tag/v3.0.0"
         }
       },
       "github": {
-        "stars": 435,
-        "pushed_at": "2026-05-09T03:36:26Z",
-        "updated_at": "2026-05-10T14:01:24Z",
+        "stars": 459,
+        "pushed_at": "2026-05-13T10:16:26Z",
+        "updated_at": "2026-05-16T09:44:12Z",
         "license": "NOASSERTION",
         "archived": false,
-        "latest_release": null
+        "latest_release": {
+          "tag": "v3.0.0",
+          "published_at": "2026-05-13T09:44:51Z",
+          "url": "https://github.com/MioMioOS/MioIsland/releases/tag/v3.0.0"
+        }
       }
     },
     "Vibe Island": {
@@ -297,7 +309,14 @@
           "final_url": "https://github.com/farouqaldori/vibe-notch/releases/tag/v1.3.2"
         }
       },
-      "github_error": "HTTP Error 403: rate limit exceeded"
+      "github": {
+        "stars": 2315,
+        "pushed_at": "2026-04-20T20:02:57Z",
+        "updated_at": "2026-05-17T19:28:10Z",
+        "license": "Apache-2.0",
+        "archived": false,
+        "latest_release": null
+      }
     },
     "xisland": {
       "group": "ai_coding",
@@ -315,7 +334,18 @@
           "final_url": "https://github.com/bluedusk/xisland/releases/tag/v0.18.0"
         }
       },
-      "github_error": "HTTP Error 403: rate limit exceeded"
+      "github": {
+        "stars": 15,
+        "pushed_at": "2026-05-02T23:27:45Z",
+        "updated_at": "2026-05-16T18:35:50Z",
+        "license": null,
+        "archived": false,
+        "latest_release": {
+          "tag": "v0.18.0",
+          "published_at": "2026-05-02T23:27:40Z",
+          "url": "https://github.com/bluedusk/xisland/releases/tag/v0.18.0"
+        }
+      }
     },
     "Notchi": {
       "group": "ai_coding",
@@ -348,7 +378,7 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/sophiie-ai/clautch/releases/tag/v0.28.1"
+          "final_url": "https://github.com/sophiie-ai/clautch/releases/tag/v0.29.0"
         }
       },
       "github_error": "HTTP Error 403: rate limit exceeded"
@@ -375,7 +405,7 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/erha19/ping-island/releases/tag/v0.12.0"
+          "final_url": "https://github.com/erha19/ping-island/releases/tag/v0.15.3"
         }
       },
       "github_error": "HTTP Error 403: rate limit exceeded"
