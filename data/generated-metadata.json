@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T07:10:45.260058+00:00",
+  "updated_at": "2026-06-29T06:27:51.348872+00:00",
   "tools": {
     "Atoll": {
       "group": "general",
@@ -46,7 +46,7 @@
         }
       },
       "homebrew": {
-        "version": "1.7.2",
+        "version": "1.7.4",
         "homepage": "https://tryalcove.com/",
         "token": "alcove"
       }
@@ -230,7 +230,7 @@
         }
       },
       "homebrew": {
-        "version": "1.0.38-beta.1",
+        "version": "1.0.39",
         "homepage": "https://vibeisland.app/",
         "token": "vibe-island"
       }
@@ -332,7 +332,7 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/erha19/ping-island/releases/tag/v0.23.0"
+          "final_url": "https://github.com/erha19/ping-island/releases/tag/v0.24.1"
         }
       },
       "github_error": "HTTP Error 403: rate limit exceeded"
