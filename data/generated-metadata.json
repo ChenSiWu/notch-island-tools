@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-29T06:27:51.348872+00:00",
+  "updated_at": "2026-07-06T06:18:11.247321+00:00",
   "tools": {
     "Atoll": {
       "group": "general",
@@ -13,7 +13,14 @@
           "final_url": "https://github.com/Ebullioscopic/Atoll/releases/tag/v2.2.0"
         }
       },
-      "github_error": "HTTP Error 403: rate limit exceeded"
+      "github": {
+        "stars": 2774,
+        "pushed_at": "2026-07-04T18:08:04Z",
+        "updated_at": "2026-07-06T05:52:52Z",
+        "license": "GPL-3.0",
+        "archived": false,
+        "latest_release": null
+      }
     },
     "BoringNotch": {
       "group": "general",
@@ -31,7 +38,14 @@
           "final_url": "https://github.com/TheBoredTeam/boring.notch/releases/tag/v2.7.3"
         }
       },
-      "github_error": "HTTP Error 403: rate limit exceeded"
+      "github": {
+        "stars": 9932,
+        "pushed_at": "2026-07-05T19:16:08Z",
+        "updated_at": "2026-07-06T04:20:53Z",
+        "license": "GPL-3.0",
+        "archived": false,
+        "latest_release": null
+      }
     },
     "Alcove": {
       "group": "general",
@@ -46,7 +60,7 @@
         }
       },
       "homebrew": {
-        "version": "1.7.4",
+        "version": "1.7.7",
         "homepage": "https://tryalcove.com/",
         "token": "alcove"
       }
@@ -184,7 +198,7 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/wxtsky/CodeIsland/releases/tag/v1.0.28"
+          "final_url": "https://github.com/wxtsky/CodeIsland/releases/tag/v1.0.29"
         }
       },
       "github_error": "HTTP Error 403: rate limit exceeded"
@@ -198,7 +212,7 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.1.3"
+          "final_url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.1.4"
         }
       },
       "github_error": "HTTP Error 403: rate limit exceeded"
@@ -230,7 +244,7 @@
         }
       },
       "homebrew": {
-        "version": "1.0.39",
+        "version": "1.0.40",
         "homepage": "https://vibeisland.app/",
         "token": "vibe-island"
       }
@@ -332,7 +346,7 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/erha19/ping-island/releases/tag/v0.24.1"
+          "final_url": "https://github.com/erha19/ping-island/releases/tag/v0.25.0"
         }
       },
       "github_error": "HTTP Error 403: rate limit exceeded"
