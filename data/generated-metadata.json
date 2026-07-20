@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T05:25:26.161024+00:00",
+  "updated_at": "2026-07-20T05:29:40.834751+00:00",
   "tools": {
     "Atoll": {
       "group": "general",
@@ -14,9 +14,9 @@
         }
       },
       "github": {
-        "stars": 2992,
-        "pushed_at": "2026-07-13T00:19:57Z",
-        "updated_at": "2026-07-13T04:44:29Z",
+        "stars": 3217,
+        "pushed_at": "2026-07-19T20:27:40Z",
+        "updated_at": "2026-07-20T05:13:34Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
@@ -43,9 +43,9 @@
         }
       },
       "github": {
-        "stars": 10016,
-        "pushed_at": "2026-07-05T19:16:08Z",
-        "updated_at": "2026-07-12T22:20:38Z",
+        "stars": 10084,
+        "pushed_at": "2026-07-16T21:15:25Z",
+        "updated_at": "2026-07-19T21:24:54Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
@@ -101,7 +101,7 @@
         }
       },
       "setapp": {
-        "version": "1.9.8.1"
+        "version": "1.9.8.3"
       }
     },
     "DynamicLake": {
@@ -210,9 +210,9 @@
         }
       },
       "github": {
-        "stars": 2092,
+        "stars": 2143,
         "pushed_at": "2026-07-10T03:01:14Z",
-        "updated_at": "2026-07-13T03:28:53Z",
+        "updated_at": "2026-07-20T03:50:04Z",
         "license": "MIT",
         "archived": false,
         "latest_release": {
@@ -231,19 +231,19 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.1.4"
+          "final_url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.1.6"
         }
       },
       "github": {
-        "stars": 1583,
-        "pushed_at": "2026-07-06T12:28:10Z",
-        "updated_at": "2026-07-13T00:17:56Z",
+        "stars": 1690,
+        "pushed_at": "2026-07-13T08:55:30Z",
+        "updated_at": "2026-07-20T04:42:52Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
-          "tag": "v1.1.4",
-          "published_at": "2026-06-29T12:23:46Z",
-          "url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.1.4"
+          "tag": "v1.1.6",
+          "published_at": "2026-07-13T08:59:08Z",
+          "url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.1.6"
         }
       }
     },
@@ -256,19 +256,19 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/MioMioOS/MioIsland/releases/tag/v3.1.0"
+          "final_url": "https://github.com/MioMioOS/MioIsland/releases/tag/v3.1.2"
         }
       },
       "github": {
-        "stars": 515,
-        "pushed_at": "2026-07-10T17:02:24Z",
-        "updated_at": "2026-07-11T04:14:31Z",
+        "stars": 516,
+        "pushed_at": "2026-07-13T13:41:49Z",
+        "updated_at": "2026-07-19T05:08:47Z",
         "license": "NOASSERTION",
         "archived": false,
         "latest_release": {
-          "tag": "v3.1.0",
-          "published_at": "2026-07-10T17:02:17Z",
-          "url": "https://github.com/MioMioOS/MioIsland/releases/tag/v3.1.0"
+          "tag": "v3.1.2",
+          "published_at": "2026-07-13T13:39:30Z",
+          "url": "https://github.com/MioMioOS/MioIsland/releases/tag/v3.1.2"
         }
       }
     },
@@ -280,12 +280,12 @@
           "final_url": "https://vibeisland.app/"
         },
         "下载页": {
-          "status": 200,
+          "status": 404,
           "final_url": "https://vibeisland.app/download"
         }
       },
       "homebrew": {
-        "version": "1.0.40",
+        "version": "1.0.41",
         "homepage": "https://vibeisland.app/",
         "token": "vibe-island"
       }
@@ -310,9 +310,9 @@
         }
       },
       "github": {
-        "stars": 2440,
+        "stars": 2456,
         "pushed_at": "2026-04-20T20:02:57Z",
-        "updated_at": "2026-07-12T22:37:42Z",
+        "updated_at": "2026-07-19T18:45:26Z",
         "license": "Apache-2.0",
         "archived": false,
         "latest_release": {
@@ -368,9 +368,9 @@
         }
       },
       "github": {
-        "stars": 945,
-        "pushed_at": "2026-07-10T15:36:03Z",
-        "updated_at": "2026-07-12T22:39:24Z",
+        "stars": 958,
+        "pushed_at": "2026-07-20T05:21:17Z",
+        "updated_at": "2026-07-20T05:21:24Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
@@ -431,10 +431,17 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/erha19/ping-island/releases/tag/v0.25.2"
+          "final_url": "https://github.com/erha19/ping-island/releases/tag/v0.26.0"
         }
       },
-      "github_error": "HTTP Error 403: rate limit exceeded"
+      "github": {
+        "stars": 975,
+        "pushed_at": "2026-07-17T17:42:13Z",
+        "updated_at": "2026-07-19T14:26:22Z",
+        "license": "Apache-2.0",
+        "archived": false,
+        "latest_release": null
+      }
     },
     "Notch Pilot": {
       "group": "ai_coding",
@@ -448,7 +455,14 @@
           "final_url": "https://github.com/devmegablaster/Notch-Pilot/releases/tag/v0.4.12"
         }
       },
-      "github_error": "HTTP Error 403: rate limit exceeded"
+      "github": {
+        "stars": 64,
+        "pushed_at": "2026-04-30T15:43:30Z",
+        "updated_at": "2026-06-30T11:42:37Z",
+        "license": "MIT",
+        "archived": false,
+        "latest_release": null
+      }
     },
     "Tars Notch": {
       "group": "ai_coding",
@@ -557,7 +571,7 @@
       "group": "archived",
       "links": {
         "官网": {
-          "status": 521,
+          "status": 522,
           "final_url": "https://notchhub.pro/"
         }
       }
