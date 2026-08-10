@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-03T05:30:51.350548+00:00",
+  "updated_at": "2026-08-10T03:42:43.740925+00:00",
   "tools": {
     "Atoll": {
       "group": "general",
@@ -14,9 +14,9 @@
         }
       },
       "github": {
-        "stars": 3667,
-        "pushed_at": "2026-08-03T00:31:24Z",
-        "updated_at": "2026-08-03T04:55:20Z",
+        "stars": 3818,
+        "pushed_at": "2026-08-10T03:40:28Z",
+        "updated_at": "2026-08-10T03:40:43Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
@@ -43,9 +43,9 @@
         }
       },
       "github": {
-        "stars": 10223,
-        "pushed_at": "2026-07-29T19:18:04Z",
-        "updated_at": "2026-08-02T23:23:36Z",
+        "stars": 10289,
+        "pushed_at": "2026-08-08T23:50:57Z",
+        "updated_at": "2026-08-10T03:20:09Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
@@ -101,7 +101,7 @@
         }
       },
       "setapp": {
-        "version": "1.9.8.9"
+        "version": "1.9.9"
       }
     },
     "DynamicLake": {
@@ -210,9 +210,9 @@
         }
       },
       "github": {
-        "stars": 2260,
+        "stars": 2285,
         "pushed_at": "2026-07-23T05:24:06Z",
-        "updated_at": "2026-08-02T19:22:51Z",
+        "updated_at": "2026-08-10T02:25:23Z",
         "license": "MIT",
         "archived": false,
         "latest_release": {
@@ -231,19 +231,19 @@
         },
         "Release": {
           "status": 200,
-          "final_url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.1.6"
+          "final_url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.1.7"
         }
       },
       "github": {
-        "stars": 1869,
-        "pushed_at": "2026-07-13T08:55:30Z",
-        "updated_at": "2026-08-03T03:19:51Z",
+        "stars": 1912,
+        "pushed_at": "2026-08-05T03:55:12Z",
+        "updated_at": "2026-08-10T01:15:48Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
-          "tag": "v1.1.6",
-          "published_at": "2026-07-13T08:59:08Z",
-          "url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.1.6"
+          "tag": "v1.1.7",
+          "published_at": "2026-08-03T17:10:34Z",
+          "url": "https://github.com/Octane0411/open-vibe-island/releases/tag/v1.1.7"
         }
       }
     },
@@ -260,9 +260,9 @@
         }
       },
       "github": {
-        "stars": 523,
+        "stars": 526,
         "pushed_at": "2026-07-13T13:41:49Z",
-        "updated_at": "2026-08-02T14:32:05Z",
+        "updated_at": "2026-08-07T19:20:01Z",
         "license": "NOASSERTION",
         "archived": false,
         "latest_release": {
@@ -310,9 +310,9 @@
         }
       },
       "github": {
-        "stars": 2477,
+        "stars": 2481,
         "pushed_at": "2026-04-20T20:02:57Z",
-        "updated_at": "2026-08-02T11:15:14Z",
+        "updated_at": "2026-08-09T03:35:00Z",
         "license": "Apache-2.0",
         "archived": false,
         "latest_release": {
@@ -368,15 +368,15 @@
         }
       },
       "github": {
-        "stars": 985,
-        "pushed_at": "2026-07-26T15:57:25Z",
-        "updated_at": "2026-08-03T03:43:07Z",
+        "stars": 995,
+        "pushed_at": "2026-08-08T13:08:14Z",
+        "updated_at": "2026-08-09T17:29:56Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
-          "tag": "v1.2.2",
-          "published_at": "2026-07-23T13:24:06Z",
-          "url": "https://github.com/sk-ruban/notchi/releases/tag/v1.2.2"
+          "tag": "v1.2.3",
+          "published_at": "2026-08-08T12:35:25Z",
+          "url": "https://github.com/sk-ruban/notchi/releases/tag/v1.2.3"
         }
       }
     },
@@ -435,12 +435,16 @@
         }
       },
       "github": {
-        "stars": 1024,
+        "stars": 1036,
         "pushed_at": "2026-07-29T17:01:46Z",
-        "updated_at": "2026-08-03T03:05:00Z",
+        "updated_at": "2026-08-09T11:28:30Z",
         "license": "Apache-2.0",
         "archived": false,
-        "latest_release": null
+        "latest_release": {
+          "tag": "v0.27.0",
+          "published_at": "2026-07-29T17:10:26Z",
+          "url": "https://github.com/erha19/ping-island/releases/tag/v0.27.0"
+        }
       }
     },
     "Notch Pilot": {
@@ -455,7 +459,18 @@
           "final_url": "https://github.com/devmegablaster/Notch-Pilot/releases/tag/v0.4.12"
         }
       },
-      "github_error": "HTTP Error 403: rate limit exceeded"
+      "github": {
+        "stars": 66,
+        "pushed_at": "2026-04-30T15:43:30Z",
+        "updated_at": "2026-08-02T22:40:10Z",
+        "license": "MIT",
+        "archived": false,
+        "latest_release": {
+          "tag": "v0.4.12",
+          "published_at": "2026-04-30T15:44:42Z",
+          "url": "https://github.com/devmegablaster/Notch-Pilot/releases/tag/v0.4.12"
+        }
+      }
     },
     "Tars Notch": {
       "group": "ai_coding",
@@ -469,7 +484,18 @@
           "final_url": "https://github.com/ohernandezdev/tars-notch/releases/tag/v2.0.0"
         }
       },
-      "github_error": "HTTP Error 403: rate limit exceeded"
+      "github": {
+        "stars": 3,
+        "pushed_at": "2026-04-01T11:26:27Z",
+        "updated_at": "2026-04-09T03:58:20Z",
+        "license": "MIT",
+        "archived": false,
+        "latest_release": {
+          "tag": "v2.0.0",
+          "published_at": "2026-03-31T10:34:46Z",
+          "url": "https://github.com/ohernandezdev/tars-notch/releases/tag/v2.0.0"
+        }
+      }
     },
     "NotchDrop 原版": {
       "group": "archived",
@@ -479,7 +505,14 @@
           "final_url": "https://github.com/Lakr233/NotchDrop"
         }
       },
-      "github_error": "HTTP Error 403: rate limit exceeded"
+      "github": {
+        "stars": 2077,
+        "pushed_at": "2026-05-18T17:50:03Z",
+        "updated_at": "2026-08-10T00:13:32Z",
+        "license": "MIT",
+        "archived": false,
+        "latest_release": null
+      }
     },
     "OpenNotch": {
       "group": "archived",
@@ -493,7 +526,7 @@
           "final_url": "https://github.com/NikitaStogniy/OpenNotch"
         }
       },
-      "github_error": "HTTP Error 403: rate limit exceeded"
+      "github_error": "HTTP Error 404: Not Found"
     },
     "NotchBar": {
       "group": "archived",
@@ -507,7 +540,14 @@
           "final_url": "https://github.com/navtoj/NotchBar"
         }
       },
-      "github_error": "HTTP Error 403: rate limit exceeded"
+      "github": {
+        "stars": 129,
+        "pushed_at": "2025-12-12T22:38:37Z",
+        "updated_at": "2026-07-10T01:07:46Z",
+        "license": "AGPL-3.0",
+        "archived": false,
+        "latest_release": null
+      }
     },
     "MediaMate": {
       "group": "archived",
@@ -526,7 +566,14 @@
           "final_url": "https://github.com/adamlyttleapps/notchy"
         }
       },
-      "github_error": "HTTP Error 403: rate limit exceeded"
+      "github": {
+        "stars": 715,
+        "pushed_at": "2026-03-29T15:04:00Z",
+        "updated_at": "2026-08-05T23:43:44Z",
+        "license": "MIT",
+        "archived": false,
+        "latest_release": null
+      }
     },
     "VNOCH": {
       "group": "archived",
