@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T07:55:41.595412+00:00",
+  "updated_at": "2026-10-05T07:53:58.220162+00:00",
   "tools": {
     "Atoll": {
       "group": "general",
@@ -100,8 +100,8 @@
         }
       },
       "app_store": {
-        "version": "2026.09.15",
-        "release_date": "2026-09-14",
+        "version": "2026.10.6",
+        "release_date": "2026-10-04",
         "track_url": "https://apps.apple.com/us/app/nook-x-%E6%95%88%E7%8E%87%E5%B2%9B-notch-%E7%95%AA%E8%8C%84%E9%92%9F-%E5%88%98%E6%B5%B7-todo/id6733240772?mt=12&uo=4",
         "track_name": "Nook X - 效率岛 Notch 番茄钟 刘海 Todo"
       }
@@ -114,8 +114,8 @@
           "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
         },
         "Setapp": {
-          "status": 404,
-          "final_url": "https://setapp.com/apps/notchnook"
+          "status": 200,
+          "final_url": "https://setapp.com/apps"
         }
       }
     },

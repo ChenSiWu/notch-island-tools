@@ -1,6 +1,6 @@
 # Mac 刘海屏 / 灵动岛工具对比
 
-更新时间：2026-09-28
+更新时间：2026-10-05
 
 这份文档分成两大类：通用刘海屏 / 灵动岛工具，以及 AI Coding / Vibe Coding 刘海屏工具。
 
@@ -61,7 +61,7 @@
 | 4 | LookieLoo | 可试，闭源商业 | 无 | App Store 当前版本 1.3.1，发布日期 2025-12-23 | [官网](https://lookielooapp.org/) / [App Store](https://apps.apple.com/us/app/lookieloo-rock-your-notch/id6747730721?mt=12) | 官方明确支持 Spotify、Apple Music、Chrome/Safari 里的 YouTube 和 YouTube Music，同步歌词、文件托盘、AirDrop、剪贴板历史。适合音乐 + 文件托盘场景 |
 | 5 | MacNotch | 可试，闭源商业 | 无 | Setapp 版本 1.9.9.6 | [Setapp](https://setapp.com/apps/macnotch) | Setapp 写明支持 Spotify、Apple Music、YouTube、浏览器播放器，还包含任务、事件、计时器、小组件、设备电量、文件 Drop、HUD、OpenAI/Ollama 翻译。Setapp 用户值得试 |
 | 6 | DynamicLake | 可试，闭源商业 | 无 | 官网可用；功能很多，但版本/下载信息不够结构化 | [官网](https://www.dynamiclake.com/) | 官方写明 DynaMusic、DynaGlance、通知、来电、DynaDrop、DynaClip、计时器、蓝牙设备提醒、Liquid Glass。适合想试商业全家桶，但不建议优先买 |
-| 7 | NookX | 可试，闭源 App Store | 无 | App Store 当前版本 2026.09.15，发布日期 2026-09-14 | [App Store](https://apps.apple.com/us/app/nook-x-%E6%95%88%E7%8E%87%E5%B2%9B-notch-%E7%95%AA%E8%8C%84%E9%92%9F-%E5%88%98%E6%B5%B7-todo/id6733240772?mt=12) | 中文效率岛，适合 Todo、番茄钟、天气、快捷启动、速记、展开动效。官方写第三方音乐 / Safari，实际音乐兼容性需要按播放器验证 |
+| 7 | NookX | 可试，闭源 App Store | 无 | App Store 当前版本 2026.10.6，发布日期 2026-10-04 | [App Store](https://apps.apple.com/us/app/nook-x-%E6%95%88%E7%8E%87%E5%B2%9B-notch-%E7%95%AA%E8%8C%84%E9%92%9F-%E5%88%98%E6%B5%B7-todo/id6733240772?mt=12) | 中文效率岛，适合 Todo、番茄钟、天气、快捷启动、速记、展开动效。官方写第三方音乐 / Safari，实际音乐兼容性需要按播放器验证 |
 | 8 | NotchNook | 可试，闭源商业 | 无 | Setapp 显示 1.5.5；官网可用；历史直链测试 404 | [官网](https://lo.cafe/notchnook) / [Setapp](https://setapp.com/apps/notchnook) | 官方/Setapp 描述包含媒体控制、日历事件、文件暂存/传输、摄像头预览。适合轻量成品体验，不建议唯一主力 |
 | 9 | NotchDrop 新版 | 可试，闭源/问题仓库 | 无 | 官网版本 2.0 | [官网](https://www.notchdrop.com/) / [DMG](https://cdn.notchdrop.com/NotchDrop-1.1.dmg) / [问题仓库](https://github.com/muhammadsaddamnur/notchdrop-issues/) | 从文件 Drop 扩展到剪贴板、音乐、AI Chat、AI Notes、录屏、摄像头、本地分享、Todo、命令快捷方式、截图标注。更像小工具合集 |
 | 10 | Notchable | 可试，闭源商业 | 无 | 官网可用，DMG 可下载 | [官网](https://notchable.com/) / [DMG](https://files.notchable.com/Notchable.dmg) | 不是综合灵动岛，更像刘海里的 Todo / Focus：语音捕捉、AI 分类、番茄钟、日历和提醒同步 |
