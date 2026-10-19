@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T08:15:48.234551+00:00",
+  "updated_at": "2026-10-19T07:05:38.075941+00:00",
   "tools": {
     "Atoll": {
       "group": "general",
@@ -14,9 +14,9 @@
         }
       },
       "github": {
-        "stars": 4922,
-        "pushed_at": "2026-10-12T00:25:39Z",
-        "updated_at": "2026-10-12T08:07:41Z",
+        "stars": 4992,
+        "pushed_at": "2026-10-19T00:21:06Z",
+        "updated_at": "2026-10-19T03:40:29Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
@@ -43,9 +43,9 @@
         }
       },
       "github": {
-        "stars": 11009,
-        "pushed_at": "2026-10-12T03:37:02Z",
-        "updated_at": "2026-10-12T07:52:51Z",
+        "stars": 11071,
+        "pushed_at": "2026-10-19T03:24:35Z",
+        "updated_at": "2026-10-19T04:16:20Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
@@ -207,9 +207,9 @@
         }
       },
       "github": {
-        "stars": 2489,
+        "stars": 2505,
         "pushed_at": "2026-10-11T01:37:21Z",
-        "updated_at": "2026-10-12T06:08:04Z",
+        "updated_at": "2026-10-18T16:51:20Z",
         "license": "MIT",
         "archived": false,
         "latest_release": {
@@ -232,9 +232,9 @@
         }
       },
       "github": {
-        "stars": 2045,
-        "pushed_at": "2026-09-15T07:41:45Z",
-        "updated_at": "2026-10-11T06:35:40Z",
+        "stars": 2047,
+        "pushed_at": "2026-10-16T08:25:42Z",
+        "updated_at": "2026-10-19T02:23:47Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
@@ -258,8 +258,8 @@
       },
       "github": {
         "stars": 539,
-        "pushed_at": "2026-08-14T06:29:48Z",
-        "updated_at": "2026-10-11T09:39:54Z",
+        "pushed_at": "2026-10-13T07:23:54Z",
+        "updated_at": "2026-10-13T07:24:04Z",
         "license": "NOASSERTION",
         "archived": false,
         "latest_release": {
@@ -282,7 +282,7 @@
         }
       },
       "homebrew": {
-        "version": "1.0.48",
+        "version": "1.0.53",
         "homepage": "https://vibeisland.app/",
         "token": "vibe-island"
       }
@@ -307,9 +307,9 @@
         }
       },
       "github": {
-        "stars": 2521,
+        "stars": 2526,
         "pushed_at": "2026-04-20T20:02:57Z",
-        "updated_at": "2026-10-12T08:04:13Z",
+        "updated_at": "2026-10-18T11:40:33Z",
         "license": "Apache-2.0",
         "archived": false,
         "latest_release": {
@@ -365,9 +365,9 @@
         }
       },
       "github": {
-        "stars": 1041,
+        "stars": 1043,
         "pushed_at": "2026-10-04T18:23:17Z",
-        "updated_at": "2026-10-12T03:22:28Z",
+        "updated_at": "2026-10-18T13:25:26Z",
         "license": "GPL-3.0",
         "archived": false,
         "latest_release": {
@@ -432,9 +432,9 @@
         }
       },
       "github": {
-        "stars": 1128,
-        "pushed_at": "2026-09-21T14:44:32Z",
-        "updated_at": "2026-10-11T12:30:55Z",
+        "stars": 1132,
+        "pushed_at": "2026-10-15T11:22:23Z",
+        "updated_at": "2026-10-19T01:46:25Z",
         "license": "Apache-2.0",
         "archived": false,
         "latest_release": {
@@ -503,9 +503,9 @@
         }
       },
       "github": {
-        "stars": 2125,
+        "stars": 2127,
         "pushed_at": "2026-05-18T17:50:03Z",
-        "updated_at": "2026-10-09T14:58:09Z",
+        "updated_at": "2026-10-18T08:51:03Z",
         "license": "MIT",
         "archived": false,
         "latest_release": null
@@ -564,9 +564,9 @@
         }
       },
       "github": {
-        "stars": 720,
+        "stars": 718,
         "pushed_at": "2026-03-29T15:04:00Z",
-        "updated_at": "2026-10-10T06:50:49Z",
+        "updated_at": "2026-10-19T03:07:11Z",
         "license": "MIT",
         "archived": false,
         "latest_release": null
@@ -586,7 +586,7 @@
       "links": {
         "原官网": {
           "status": "error",
-          "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+          "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
         }
       }
     },
