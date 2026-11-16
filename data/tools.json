@@ -12,7 +12,8 @@
     {"tool": "MioIsland", "note": "之前记录为 macOS 15+"},
     {"tool": "Vibe Island", "note": "Homebrew Cask 显示 macOS 14+"},
     {"tool": "Notchi", "note": "官网 / Release 方向要求 macOS Sequoia"},
-    {"tool": "Notchy", "note": "GitHub README 方向记录为 macOS 26.0+，因此只放观察区"}
+    {"tool": "Notchy", "note": "GitHub README 方向记录为 macOS 26.0+，因此只放观察区"},
+    {"tool": "NotchDeck", "note": "README 写明 Apple Silicon + macOS 26.0+，无 Intel 版本；ad-hoc 签名，首次启动要在「隐私与安全性」放行，或改用带 SHA256 校验的 install.sh"}
   ],
   "general_features": ["音乐/媒体", "文件暂存/传输", "日历/事件", "待办/番茄钟", "系统状态/HUD", "摄像头/镜子", "AI 功能"],
   "ai_features": ["Claude Code", "Codex", "Gemini CLI", "Cursor / IDE Agent", "OpenCode", "权限审批", "Agent 问题回答", "终端跳转", "用量/额度显示", "iPhone 联动", "插件生态"],
@@ -153,6 +154,18 @@
       "links": [{"label": "官网", "url": "https://www.notchpad.org/"}, {"label": "DMG", "url": "https://qnxwrepfyxxmifel.public.blob.vercel-storage.com/Notchpad-0.8.4.dmg"}],
       "summary": "刘海里的常驻记事本，支持打字/语音，本地存储。功能单一，但边界清楚",
       "features": {"音乐/媒体": "无", "文件暂存/传输": "无", "日历/事件": "无", "待办/番茄钟": "记录工具", "系统状态/HUD": "无", "摄像头/镜子": "无", "AI 功能": "无"}
+    }
+,
+    {
+      "rank": 12,
+      "name": "NotchDeck",
+      "status": "观察，开源 MIT，要求 macOS 26+",
+      "github_stars": "1",
+      "github_repo": "systemAdmin-ai/NotchDeck",
+      "metadata": "Release v2.0.0-preview.2，2026-11-16；ad-hoc 签名，未公证",
+      "links": [{"label": "GitHub", "url": "https://github.com/systemAdmin-ai/NotchDeck"}, {"label": "Release", "url": "https://github.com/systemAdmin-ai/NotchDeck/releases/latest"}, {"label": "安装脚本", "url": "https://raw.githubusercontent.com/systemAdmin-ai/NotchDeck/main/scripts/install.sh"}],
+      "summary": "刘海面板 + 系统指标（CPU / 内存 / 温度 / 磁盘）+ 播放器 + 快速笔记 + 文件 Shelf + 剪贴板历史 + 录屏截图 + 四套任务配置和八种主题；另外用取色自屏幕边缘的霓虹光替代系统亮度 / 音量 HUD",
+      "features": {"音乐/媒体": "有播放器", "文件暂存/传输": "有 Shelf", "日历/事件": "不主打", "待办/番茄钟": "不主打", "系统状态/HUD": "强，含 CPU / 内存 / 温度 / 磁盘，亮度 / 音量霓虹 HUD", "摄像头/镜子": "无", "AI 功能": "无"}
     }
   ],
   "ai_coding": [
