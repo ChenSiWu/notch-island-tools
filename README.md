@@ -1,6 +1,6 @@
 # Mac 刘海屏 / 灵动岛工具对比
 
-更新时间：2026-11-23
+更新时间：2026-11-24
 
 这份文档分成两大类：通用刘海屏 / 灵动岛工具，以及 AI Coding / Vibe Coding 刘海屏工具。
 
@@ -48,6 +48,7 @@
 | Vibe Island | Homebrew Cask 显示 macOS 14+ |
 | Notchi | 官网 / Release 方向要求 macOS Sequoia |
 | Notchy | GitHub README 方向记录为 macOS 26.0+，因此只放观察区 |
+| NotchDeck | README 写明 Apple Silicon（M1+）+ macOS 14+ |
 
 # 一、通用刘海屏 / 灵动岛工具
 
@@ -66,6 +67,7 @@
 | 9 | NotchDrop 新版 | 可试，闭源/问题仓库 | 无 | 官网版本 2.0 | [官网](https://www.notchdrop.com/) / [DMG](https://cdn.notchdrop.com/NotchDrop-1.1.dmg) / [问题仓库](https://github.com/muhammadsaddamnur/notchdrop-issues/) | 从文件 Drop 扩展到剪贴板、音乐、AI Chat、AI Notes、录屏、摄像头、本地分享、Todo、命令快捷方式、截图标注。更像小工具合集 |
 | 10 | Notchable | 可试，闭源商业 | 无 | 官网可用，DMG 可下载 | [官网](https://notchable.com/) / [DMG](https://files.notchable.com/Notchable.dmg) | 不是综合灵动岛，更像刘海里的 Todo / Focus：语音捕捉、AI 分类、番茄钟、日历和提醒同步 |
 | 11 | Notchpad | 可试，闭源单功能 | 无 | 官网版本 0.8.4 | [官网](https://www.notchpad.org/) / [DMG](https://qnxwrepfyxxmifel.public.blob.vercel-storage.com/Notchpad-0.8.4.dmg) | 刘海里的常驻记事本，支持打字/语音，本地存储。功能单一，但边界清楚 |
+| 12 | NotchDeck | 可试，开源 MIT | 8+ | Release v2.2.0，2026-11；MIT 许可，提供官网、Release 与 Homebrew tap | [官网](https://systemadmin-ai.github.io/NotchDeck/) / [GitHub](https://github.com/systemAdmin-ai/NotchDeck) / [Release](https://github.com/systemAdmin-ai/NotchDeck/releases/latest) | 原生 SwiftUI（非 Electron）实现的刘海轻量控制中心：系统指标、Now Playing、快速笔记、录屏与任务配置。功能面小于 Atoll，但更轻、更聚焦监控与快捷操作 |
 
 ## 通用场景快速选择
 
@@ -81,15 +83,15 @@
 
 ## 通用功能矩阵
 
-| 功能 | Atoll | BoringNotch | Alcove | LookieLoo | MacNotch | DynamicLake | NookX | NotchNook | NotchDrop 新版 | Notchable | Notchpad |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 音乐/媒体 | 官方：Apple Music、Spotify 等；第三方音乐需按环境验证 | 官方：媒体控制；第三方音乐需按环境验证 | 官方主打 Live Activities/HUD，媒体需实测 | 官方：Spotify、Apple Music、YouTube/YouTube Music、歌词 | 官方：Spotify、Apple Music、YouTube、浏览器播放器 | 官方：DynaMusic | 官方：第三方音乐/Safari；具体播放器需验证 | 官方：媒体控制；具体播放器需验证 | 官方：音乐控制 | 无 | 无 |
-| 文件暂存/传输 | 有 Shelf | 有 Shelf | 未主打 | 有文件托盘 + AirDrop | 有文件 Drop | DynaDrop/DynaClip | 有文件暂存 | 有文件托盘/传输 | 强 | 无 | 无 |
-| 日历/事件 | 有 | 有 | 有 | 不主打 | 有任务/事件 | DynaGlance | 有 | 有 | 不主打 | 有 | 无 |
-| 待办/番茄钟 | 计时器 | 不主打 | 不主打 | 无 | 有任务/计时器 | 计时器 | 强 | 不主打 | Todo | 强 | 记录工具 |
-| 系统状态/HUD | 系统状态强，含 CPU/GPU/内存/网络/磁盘 | 电池/HUD 等基础能力 | HUD 强 | 不主打 | 设备电量/HUD | 有设备/通知类能力 | 基础信息 | 基础 | 不主打 | 无 | 无 |
-| 摄像头/镜子 | 需权限，按功能配置 | 有镜子 | 不主打 | 不主打 | 不主打 | 不主打 | 有镜子 | 有摄像头预览 | 有摄像头 | 无 | 无 |
-| AI 功能 | 非核心 | 无 | 无 | 无 | OpenAI/Ollama 翻译 | 无 | 内置 AI 对话 | 无 | AI Chat/AI Notes | AI 整理任务 | 无 |
+| 功能 | Atoll | BoringNotch | Alcove | LookieLoo | MacNotch | DynamicLake | NookX | NotchNook | NotchDrop 新版 | Notchable | Notchpad | NotchDeck |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 音乐/媒体 | 官方：Apple Music、Spotify 等；第三方音乐需按环境验证 | 官方：媒体控制；第三方音乐需按环境验证 | 官方主打 Live Activities/HUD，媒体需实测 | 官方：Spotify、Apple Music、YouTube/YouTube Music、歌词 | 官方：Spotify、Apple Music、YouTube、浏览器播放器 | 官方：DynaMusic | 官方：第三方音乐/Safari；具体播放器需验证 | 官方：媒体控制；具体播放器需验证 | 官方：音乐控制 | 无 | 无 | Now Playing 控制 |
+| 文件暂存/传输 | 有 Shelf | 有 Shelf | 未主打 | 有文件托盘 + AirDrop | 有文件 Drop | DynaDrop/DynaClip | 有文件暂存 | 有文件托盘/传输 | 强 | 无 | 无 | 无 |
+| 日历/事件 | 有 | 有 | 有 | 不主打 | 有任务/事件 | DynaGlance | 有 | 有 | 不主打 | 有 | 无 | 无 |
+| 待办/番茄钟 | 计时器 | 不主打 | 不主打 | 无 | 有任务/计时器 | 计时器 | 强 | 不主打 | Todo | 强 | 记录工具 | 快速笔记 |
+| 系统状态/HUD | 系统状态强，含 CPU/GPU/内存/网络/磁盘 | 电池/HUD 等基础能力 | HUD 强 | 不主打 | 设备电量/HUD | 有设备/通知类能力 | 基础信息 | 基础 | 不主打 | 无 | 无 | 有，CPU / 内存 / 网络指标 |
+| 摄像头/镜子 | 需权限，按功能配置 | 有镜子 | 不主打 | 不主打 | 不主打 | 不主打 | 有镜子 | 有摄像头预览 | 有摄像头 | 无 | 无 | 无 |
+| AI 功能 | 非核心 | 无 | 无 | 无 | OpenAI/Ollama 翻译 | 无 | 内置 AI 对话 | 无 | AI Chat/AI Notes | AI 整理任务 | 无 | 非核心 |
 
 # 二、AI Coding / Vibe Coding 刘海屏工具
 
@@ -192,6 +194,9 @@
 - [Notchable DMG](https://files.notchable.com/Notchable.dmg)
 - [Notchpad 官网](https://www.notchpad.org/)
 - [Notchpad DMG](https://qnxwrepfyxxmifel.public.blob.vercel-storage.com/Notchpad-0.8.4.dmg)
+- [NotchDeck 官网](https://systemadmin-ai.github.io/NotchDeck/)
+- [NotchDeck GitHub](https://github.com/systemAdmin-ai/NotchDeck)
+- [NotchDeck Release](https://github.com/systemAdmin-ai/NotchDeck/releases/latest)
 
 ### AI Coding / Vibe Coding
 
